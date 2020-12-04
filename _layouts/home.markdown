@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="umbrella-intro padd">
   <div class="">
     <h1>A team as unique as your brief</h1>
