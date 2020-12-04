@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+h1, h2, h3, h4, h5, p { font-family: "Poppins", sans-serif; }
+
+@media all and (min-width: 61.25em) { h1 { font-size: 80px; line-height: 1.1; margin-bottom: 80px; } }
+
+h2 { font-weight: 800; margin-bottom: 20px; font-size: 30px; line-height: 1.2; }
+
+p { font-size: 17px; line-height: 1.3; margin-bottom: 20px; }
+
+.padd { padding: 5%; position: relative; }
+
+.padd-sides { padding: 0 2.5%; position: relative; }
+
+.flex { display: flex; flex-direction: column; }
+
+@media all and (min-width: 61.25em) { .flex { flex-direction: row; justify-content: space-between; } }
+
+@media all and (min-width: 61.25em) { .flex > * { width: 50%; } }
+
+@media all and (min-width: 61.25em) { .flex.flip { flex-direction: row-reverse; } }
+
+.flex.flip .left .big-circle { margin-left: auto; }
+
+.contact .flex { height: calc(100vh - 90px); }
+
+.left, .right { position: relative; }
+
+.left.orange, .right.orange { background-color: #f38777; }
+
+.left.blue, .right.blue { background-color: #202c3c; color: #fed561; }
+
+.left.blue h1, .right.blue h1 { color: #fed561; }
+
+.left.blue p, .right.blue p { color: #fed561; }
+
+.left img, .right img { width: 100%; height: 100%; object-fit: contain; }
+
+@media all and (min-width: 61.25em) { .right-on-desktop { max-width: 42%; margin-left: auto; } }
+
+.center { position: absolute; top: 50%; transform: translateY(-50%); width: 90%; }
+
+.umbrella-header { width: 100%; background-color: #202c3c; z-index: 10; padding-left: 5%; padding-top: 40px; padding-bottom: 40px; box-sizing: border-box; }
+
+.umbrella-header .umbrealla-header__logo { width: max-content; height: 12vh; }
+
+.umbrella-header .umbrealla-header__logo img { width: auto; height: 100%; }
+
+.umbrella-intro { background-color: #e8e8e4; height: calc(100vh - 90px); }
+
+.umbrella-intro h1, .umbrella-intro h2, .umbrella-intro p { color: #202c3c; }
+
+.umbrella-intro p { font-weight: 400; }
+
+.umbrella-intro.orange { background-color: #f38777; }
+
+.umbrella-intro.orange h1, .umbrella-intro.orange h2, .umbrella-intro.orange p { color: #e8e8e4; }
+
+.umbrella-intro.image img { position: absolute; width: 100%; height: 100%; object-fit: cover; }
+
+@keyframes cirlcesOne { 0% { top: 0;
+    left: 0; }
+  100% { top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); } }
+
+@keyframes cirlcesTwo { 0% { top: 50%;
+    left: 0; }
+  100% { top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); } }
+
+@keyframes cirlcesThree { 0% { top: 100%;
+    left: 0; }
+  100% { top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); } }
+
+@keyframes cirlcesFour { 0% { top: 100%;
+    left: 50%; }
+  100% { top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); } }
+
+@keyframes cirlcesFive { 0% { top: 100%;
+    left: 100%; }
+  100% { top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); } }
+
+@keyframes cirlcesSix { 0% { top: 50%;
+    left: 100%; }
+  100% { top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); } }
+
+@keyframes cirlcesSeven { 0% { top: 0;
+    left: 100%; }
+  100% { top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); } }
+
+@keyframes cirlcesEight { 0% { top: 0;
+    left: 50%; }
+  100% { top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); } }
+
+@keyframes grow { 0% { width: 0;
+    height: 0; }
+  100% { width: 25vw;
+    height: 25vw; } }
+
+@keyframes spinner { 0% { transform: rotate(0deg);
+    border-radius: 50%;
+    transform-origin: center; }
+  50% { transform: rotate(360deg);
+    border-radius: 0;
+    transform-origin: center; }
+  100% { transform: rotate(720deg);
+    border-radius: 50%;
+    transform-origin: center; } }
+
+.big-circle { width: 25vw; height: 25vw; position: relative; }
+
+.big-circle:after { position: relative; animation-name: grow; animation-duration: 2s; animation-delay: 2s; animation-iteration-count: 1; animation-timing-function: ease-in-out; animation-fill-mode: forwards; border-radius: 50%; background-color: #202c3c; position: absolute; content: ''; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+
+.big-circle.spinner:after { height: 25vw; width: 25vw; animation-name: spinner; animation-duration: 2s; animation-delay: 0s; animation-iteration-count: infinite; transform-origin: center; left: 0; top: 0; }
+
+.small-circle { height: 20px; width: 20px; border-radius: 50%; background-color: #f38777; position: absolute; z-index: 10; }
+
+.small-circle.one { top: 0; left: 0; animation-name: cirlcesOne; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out; animation-fill-mode: forwards; }
+
+.small-circle.two { top: 50%; transform: translateY(-50%); animation-name: cirlcesTwo; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out; animation-fill-mode: forwards; }
+
+.small-circle.three { top: 100%; animation-name: cirlcesThree; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out; animation-fill-mode: forwards; }
+
+.small-circle.four { top: 100%; left: 50%; transform: translateY(-50%); animation-name: cirlcesFour; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out; animation-fill-mode: forwards; }
+
+.small-circle.five { bottom: 0; left: 100%; transform: translateY(-50%); animation-name: cirlcesFive; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out; animation-fill-mode: forwards; }
+
+.small-circle.six { bottom: 50%; left: 100%; transform: translateY(-50%); animation-name: cirlcesSix; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out; animation-fill-mode: forwards; }
+
+.small-circle.seven { top: 0; left: 100%; transform: translateY(-50%); animation-name: cirlcesSeven; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out; animation-fill-mode: forwards; }
+
+.small-circle.eight { top: 0; left: 50%; transform: translateY(-50%); animation-name: cirlcesEight; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out; animation-fill-mode: forwards; }
+
+.umbrella-intro.image { position: relative; }
+
+.umbrella-intro.image .team-profiles { position: absolute; top: 0; display: flex; z-index: 100; }
+
+.umbrella-intro.image .team-profiles > * { width: 28%; margin-right: 15px; }
+
+.umbrella-intro.image .team-profiles h1 { font-size: 20px; line-height: 1; margin: 0; font-weight: 900; color: #fff; }
+
+.umbrella-intro.image .team-profiles p { font-size: 16px; line-height: 1.2; color: #fff; max-width: 50%; }
+
+.uk-card-body { padding: 0; }
+
+.uk-card-body h3 { font-size: 60px; }
+
+.uk-card-body p { max-width: 80%; }
+
+.uk-card-default { box-shadow: none; }
+
+.uk-card { display: flex; flex-direction: row-reverse; padding: 5%; }
+
+.uk-card > * { width: 50%; }
+
+.uk-card .uk-card-media-top { background-color: #f6f6f6; height: 400px; }
+
+.uk-card .uk-card-media-top img { width: 100%; height: 100%; object-fit: cover; }
+
+/*# sourceMappingURL=main.css.map */
