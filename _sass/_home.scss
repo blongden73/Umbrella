@@ -1,0 +1,27 @@
+.umbrella_home-top {
+  height: 100vh;
+  background-color: pink;
+}
+
+.flex {
+  display: flex;
+}
+
+.umbrella_work {
+  margin-top: 40px;
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .work_wrapper {
+    width: 60%;
+    height: 60vh;
+    background-color: black;
+    margin-bottom: 40px;
+
+    &:nth-child(even) {
+      margin-left: auto;
+    }
+  }
+}

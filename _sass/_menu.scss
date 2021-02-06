@@ -1,0 +1,159 @@
+.umbrella_menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  transition: all ease-in-out 0.5s;
+  display: flex;
+  justify-content: flex-end;
+
+  &.open {
+    width: 100%;
+  }
+}
+
+.umbrella_freelance, .umbrella_clients {
+  width: 50px;
+  background-color: #F1CCDD;
+  height: 100vh;
+  position: relative;
+  transition: all ease-in-out 0.5s;
+
+  h1 {
+    font-size: 24px;
+    width: max-content;
+    color: #fff;
+    position: absolute;
+    top: 130px;
+    margin-bottom: 0;
+    left: 50%;
+    font-size: 22px;
+    transform-origin: left;
+    transform: rotate(90deg);
+    transition: all ease-in-out 0.5s;
+  }
+}
+
+.umbrella_freelance.open {
+  width: 97%;
+  overflow: scroll;
+
+  p {
+    padding-left: 10%;
+  }
+
+  h1 {
+    left: 2%;
+  }
+
+  & + .umbrella_clients {
+    width: 50px;
+  }
+
+  & > .load-content {
+      display: block;
+      animation-name: visibility;
+      animation-duration: 0.5s;
+      animation-delay: 0.5s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+    }
+}
+
+.umbrella_clients.open {
+  width: 97%;
+
+  h1 {
+    left: 2%;
+  }
+
+  & + .umbrella_clients {
+    width: 50px;
+  }
+
+  & > .load-content {
+      display: block;
+      animation-name: visibility;
+      animation-duration: 0.5s;
+      animation-delay: 0.5s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+    }
+}
+
+.umbrella_clients {
+  right: 0;
+  background-color: #FBE04B;
+}
+
+@keyframes visibility {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.freelance-header {
+  height: 100vh;
+}
+
+.load-content {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+
+.freelance-intro {
+  height: 100vh;
+  background-color: white;
+}
+
+.freelance-process {
+  background-color: #D2DFD8;
+  height: 100vh;
+}
+
+.process-list {
+  h1 {
+    position: relative;
+    transform: none;
+    top: auto;
+  }
+
+  &:nth-child(odd) {
+    margin-top: 100px;
+  }
+}
+
+.freelance-roles {
+  height: 100vh;
+  background-color: $blue;
+  .role {
+    max-width: 30%;
+
+    .role-image {
+      background-color: #333;
+      width: 100%;
+      height: 200px;
+    }
+
+    .role-title {
+      color: #fff;
+
+      h2 {
+        color: #fff;
+      }
+    }
+
+    p {
+      color: #fff;
+    }
+  }
+}

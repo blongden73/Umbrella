@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
+	&.open {
+		overflow: hidden;
+	}
 }
 ol, ul {
 	list-style: none;

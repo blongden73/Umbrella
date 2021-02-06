@@ -6,6 +6,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body { line-height: 1; }
 
+body.open { overflow: hidden; }
+
 ol, ul { list-style: none; }
 
 blockquote, q { quotes: none; }
@@ -54,7 +56,7 @@ p { font-size: 17px; line-height: 1.3; margin-bottom: 20px; }
 
 .center { position: absolute; top: 50%; transform: translateY(-50%); width: 90%; }
 
-.umbrella-header { width: 100%; background-color: #202c3c; z-index: 10; padding-left: 5%; padding-top: 40px; padding-bottom: 40px; box-sizing: border-box; }
+.umbrella-header { width: 100%; background-color: transparent; z-index: 10; padding-left: 1%; padding-top: 20px; padding-bottom: 20px; box-sizing: border-box; position: absolute; }
 
 .umbrella-header .umbrealla-header__logo { width: max-content; height: 12vh; }
 
@@ -184,5 +186,76 @@ p { font-size: 17px; line-height: 1.3; margin-bottom: 20px; }
 .uk-card .uk-card-media-top { background-color: #f6f6f6; height: 400px; }
 
 .uk-card .uk-card-media-top img { width: 100%; height: 100%; object-fit: cover; }
+
+.image-wrapper { width: 100%; height: 100vh; background-color: black; }
+
+.umbrella_home-top { height: 100vh; background-color: pink; }
+
+.flex { display: flex; }
+
+.umbrella_work { margin-top: 40px; }
+
+.umbrella_work .flex { flex-direction: column; }
+
+.umbrella_work .work_wrapper { width: 60%; height: 60vh; background-color: black; margin-bottom: 40px; }
+
+.umbrella_work .work_wrapper:nth-child(even) { margin-left: auto; }
+
+.umbrella_menu { position: fixed; right: 0; top: 0; bottom: 0; width: 100px; transition: all ease-in-out 0.5s; display: flex; justify-content: flex-end; }
+
+.umbrella_menu.open { width: 100%; }
+
+.umbrella_freelance, .umbrella_clients { width: 50px; background-color: #F1CCDD; height: 100vh; position: relative; transition: all ease-in-out 0.5s; }
+
+.umbrella_freelance h1, .umbrella_clients h1 { font-size: 24px; width: max-content; color: #fff; position: absolute; top: 130px; margin-bottom: 0; left: 50%; font-size: 22px; transform-origin: left; transform: rotate(90deg); transition: all ease-in-out 0.5s; }
+
+.umbrella_freelance.open { width: 97%; overflow: scroll; }
+
+.umbrella_freelance.open p { padding-left: 10%; }
+
+.umbrella_freelance.open h1 { left: 2%; }
+
+.umbrella_freelance.open + .umbrella_clients { width: 50px; }
+
+.umbrella_freelance.open > .load-content { display: block; animation-name: visibility; animation-duration: 0.5s; animation-delay: 0.5s; animation-fill-mode: forwards; animation-iteration-count: 1; }
+
+.umbrella_clients.open { width: 97%; }
+
+.umbrella_clients.open h1 { left: 2%; }
+
+.umbrella_clients.open + .umbrella_clients { width: 50px; }
+
+.umbrella_clients.open > .load-content { display: block; animation-name: visibility; animation-duration: 0.5s; animation-delay: 0.5s; animation-fill-mode: forwards; animation-iteration-count: 1; }
+
+.umbrella_clients { right: 0; background-color: #FBE04B; }
+
+@keyframes visibility { 0% { opacity: 0;
+    visibility: hidden; }
+  100% { opacity: 1;
+    visibility: visible; } }
+
+.freelance-header { height: 100vh; }
+
+.load-content { display: none; opacity: 0; visibility: hidden; }
+
+.freelance-intro { height: 100vh; background-color: white; }
+
+.freelance-process { background-color: #D2DFD8; height: 100vh; }
+
+.process-list h1 { position: relative; transform: none; top: auto; }
+
+.process-list:nth-child(odd) { margin-top: 100px; }
+
+.freelance-roles { height: 100vh; background-color: #202c3c; }
+
+.freelance-roles .role { max-width: 30%; }
+
+.freelance-roles .role .role-image { background-color: #333; width: 100%; height: 200px; }
+
+.freelance-roles .role .role-title { color: #fff; }
+
+.freelance-roles .role .role-title h2 { color: #fff; }
+
+.freelance-roles .role p { color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
