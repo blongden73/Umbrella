@@ -16,9 +16,9 @@ defaults:
     path: projects
   values:
     Project Images:
-    - Image:
+    - Image: 
     Services:
-    - Service Type:
+    - Service Type: 
 - scope:
     path: ''
     type: posts
