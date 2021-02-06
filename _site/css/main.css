@@ -201,11 +201,27 @@ p { font-size: 17px; line-height: 1.3; margin-bottom: 20px; }
 
 .flex { display: flex; }
 
-.umbrella_work { margin-top: 40px; }
+.umbrella_work { margin-top: 40px; padding-left: 2%; }
 
 .umbrella_work .flex { flex-direction: column; }
 
-.umbrella_work .work_wrapper { width: 60%; height: 60vh; background-color: black; margin-bottom: 40px; }
+.umbrella_work .project_wrapper { width: 100%; display: flex; }
+
+.umbrella_work .project_inner { width: 60%; }
+
+.umbrella_work .title_wrapper { width: 40%; }
+
+.umbrella_work .text-wrapper h1 { margin-left: 30px; }
+
+.umbrella_work .text-wrapper h1 .char { --offset: calc(var(--char-index) * 1.2rem); offset-path: path("M1 12.5003C22.5 35.8336 97 82.9997 182 44.5C261.373 8.549 295 -5.49973 338 3.50027"); offset-distance: var(--offset); position: absolute; animation: move 1500ms infinite alternate forwards var(--delay, 0ms); font-size: 50px; font-family: "roc_groteskcompressed_bold"; text-transform: uppercase; }
+
+.umbrella_work .text-wrapper svg { margin-left: 20px; width: 25px; height: auto; }
+
+.umbrella_work .text-wrapper svg path { fill: #333; }
+
+.umbrella_work .work_wrapper { width: 100%; height: 60vh; background-color: black; margin-bottom: 10px; position: relative; }
+
+.umbrella_work .work_wrapper img { width: 100%; height: 100%; object-fit: cover; position: absolute; }
 
 .umbrella_work .work_wrapper:nth-child(even) { margin-left: auto; }
 
@@ -231,13 +247,19 @@ p { font-size: 17px; line-height: 1.3; margin-bottom: 20px; }
   100% { offset-distance: calc((var(--char-index) * 1.3rem) + 1000px);
     color: #FBE04B; } }
 
+.dots { display: flex; }
+
+.dots .dot { width: 5px; height: 5px; background-color: #121212; border-radius: 50%; margin-right: 10px; }
+
 .umbrella_menu { position: fixed; right: 0; top: 0; bottom: 0; width: 100px; transition: all ease-in-out 0.5s; display: flex; justify-content: flex-end; }
 
-.umbrella_menu.open { width: 100%; }
+.umbrella_menu.open { width: 100%; z-index: 1000; }
 
 .umbrella_freelance, .umbrella_clients { width: 50px; background-color: #F1CCDD; height: 100vh; position: relative; transition: all ease-in-out 0.5s; }
 
-.umbrella_freelance h1, .umbrella_clients h1 { font-size: 24px; width: max-content; color: #fff; position: absolute; top: 130px; margin-bottom: 0; left: 50%; font-size: 22px; transform-origin: left; transform: rotate(90deg); transition: all ease-in-out 0.5s; }
+.umbrella_freelance h1, .umbrella_clients h1 { font-size: 24px; width: max-content; color: #fff; position: absolute; top: 130px; margin-bottom: 0; left: 50%; font-size: 50px; transform-origin: left; transform: rotate(90deg); transition: all ease-in-out 0.5s; font-family: "roc_groteskcompressed_bold"; color: #121212; text-transform: uppercase; }
+
+.umbrella_freelance h1 span, .umbrella_clients h1 span { font-family: "roc_groteskregular"; font-size: 16px; text-transform: capitalize; margin-left: 10px; }
 
 .umbrella_freelance.open { width: 97%; overflow: scroll; }
 

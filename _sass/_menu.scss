@@ -10,6 +10,7 @@
 
   &.open {
     width: 100%;
+    z-index: 1000;
   }
 }
 
@@ -28,10 +29,20 @@
     top: 130px;
     margin-bottom: 0;
     left: 50%;
-    font-size: 22px;
+    font-size: 50px;
     transform-origin: left;
     transform: rotate(90deg);
     transition: all ease-in-out 0.5s;
+    font-family: $u-compressed;
+    color: #121212;
+    text-transform: uppercase;
+
+    span {
+      font-family: $u-sans;
+      font-size: 16px;
+      text-transform: capitalize;
+      margin-left: 10px;
+    }
   }
 }
 
