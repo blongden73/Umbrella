@@ -13,12 +13,12 @@ collections:
     output: true
 defaults:
 - scope:
-  path: projects
-values:
-  Project Images:
-  - Image:
-  Services:
-  - Service Type: 
+    path: projects
+  values:
+    Project Images:
+    - Image:
+    Services:
+    - Service Type:
 - scope:
     path: ''
     type: posts
