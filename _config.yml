@@ -11,6 +11,9 @@ collections:
   roles:
     title: Roles
     output: true
+  undercover:
+    title: Undercover
+    output: true
   uploads:
     title: Uploads
     output: true
