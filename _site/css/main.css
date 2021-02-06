@@ -16,7 +16,15 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
 table { border-collapse: collapse; border-spacing: 0; }
 
-h1, h2, h3, h4, h5, p { font-family: "Poppins", sans-serif; }
+@font-face { font-family: 'roc_groteskcompressed_bold'; src: url("../assets/kostic_-_roc_grotesk_compressed_bold-webfont.woff2") format("woff2"), url("../assets/kostic_-_roc_grotesk_compressed_bold-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'roc_groteskcompressed_medium'; src: url("../assets/kostic_-_roc_grotesk_compressed_medium-webfont.woff2") format("woff2"), url("../assets/kostic_-_roc_grotesk_compressed_medium-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'roc_groteskcondensed_bold'; src: url("../assets/kostic_-_roc_grotesk_condensed_bold-webfont.woff2") format("woff2"), url("../assets/kostic_-_roc_grotesk_condensed_bold-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'roc_groteskregular'; src: url("../assets/kostic_-_roc_grotesk_regular-webfont.woff2") format("woff2"), url("../assets/kostic_-_roc_grotesk_regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+h1, h2, h3, h4, h5, p { font-family: "roc_groteskregular"; }
 
 @media all and (min-width: 61.25em) { h1 { font-size: 80px; line-height: 1.1; margin-bottom: 80px; } }
 
@@ -189,7 +197,7 @@ p { font-size: 17px; line-height: 1.3; margin-bottom: 20px; }
 
 .image-wrapper { width: 100%; height: 100vh; background-color: black; }
 
-.umbrella_home-top { height: 100vh; background-color: pink; }
+.umbrella_home-top { height: 100vh; background-color: #333D49; }
 
 .flex { display: flex; }
 
@@ -200,6 +208,28 @@ p { font-size: 17px; line-height: 1.3; margin-bottom: 20px; }
 .umbrella_work .work_wrapper { width: 60%; height: 60vh; background-color: black; margin-bottom: 40px; }
 
 .umbrella_work .work_wrapper:nth-child(even) { margin-left: auto; }
+
+#circle { fill: transparent; stroke: none; }
+
+.homepage-circle { overflow: visible !important; transform: rotate(-40deg); transform-origin: center; position: absolute; top: 70px; left: 55px; }
+
+@keyframes fix { 0% { letter-spacing: 0; }
+  100% { letter-spacing: 1; } }
+
+.homepage-headline { fill: #fff; font-family: "roc_groteskregular"; letter-spacing: 1px; font-size: 40px; font-kerning: auto; animation: fix; animation-duration: 0.1s; animation-iteration-count: 1; animation-fill-mode: forwards; }
+
+.homepage-animation h2 { margin-bottom: 0; position: absolute; top: -200px; left: -40px; transform: rotate(-13deg); transform-origin: left; font-family: "roc_groteskcompressed_bold"; }
+
+.homepage-animation .char { offset-path: path("M1 594C1 921.505 266.495 1187 594 1187C921.505 1187 1187 921.505 1187 594C1187 266.495 921.505 1 594 1"); offset-distance: calc(var(--char-index) * 5rem); position: absolute; animation: loop 10000ms cubic-bezier(0.62, 0.01, 0.6, 1.01) infinite alternate calc(var(--char-index) * 20ms); font-size: 65px; text-transform: uppercase; color: #FBE04B; }
+
+@keyframes loop { 50% { offset-distance: calc((var(--char-index) * 1.3rem) + 100px);
+    color: hotpink; }
+  60% { offset-distance: calc((var(--char-index) * 1.3rem) + 100px);
+    color: hotpink; }
+  70% { offset-distance: calc((var(--char-index) * 1.3rem) + 100px);
+    color: hotpink; }
+  100% { offset-distance: calc((var(--char-index) * 1.3rem) + 1000px);
+    color: #FBE04B; } }
 
 .umbrella_menu { position: fixed; right: 0; top: 0; bottom: 0; width: 100px; transition: all ease-in-out 0.5s; display: flex; justify-content: flex-end; }
 

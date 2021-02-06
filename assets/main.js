@@ -17,3 +17,7 @@ function menu(){
     body.classList.toggle('open');
   });
 }menu();
+
+Splitting({
+	whitespace: true
+})

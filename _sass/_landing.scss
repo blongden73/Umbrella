@@ -3,7 +3,39 @@ $blue: #202c3c;
 $orange: #f38777;
 $yellow: #fed561;
 
-$u-sans: 'Poppins', sans-serif;
+$u-sans: 'roc_groteskregular';
+$u-condenssed: 'roc_groteskcondensed_bold';
+$u-compressed: 'roc_groteskcompressed_bold';
+$u-compressed-light: 'roc_groteskcompressed_medium';
+
+@font-face {
+    font-family: 'roc_groteskcompressed_bold';
+    src: url('../assets/kostic_-_roc_grotesk_compressed_bold-webfont.woff2') format('woff2'),
+         url('../assets/kostic_-_roc_grotesk_compressed_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roc_groteskcompressed_medium';
+    src: url('../assets/kostic_-_roc_grotesk_compressed_medium-webfont.woff2') format('woff2'),
+         url('../assets/kostic_-_roc_grotesk_compressed_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roc_groteskcondensed_bold';
+    src: url('../assets/kostic_-_roc_grotesk_condensed_bold-webfont.woff2') format('woff2'),
+         url('../assets/kostic_-_roc_grotesk_condensed_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roc_groteskregular';
+    src: url('../assets/kostic_-_roc_grotesk_regular-webfont.woff2') format('woff2'),
+         url('../assets/kostic_-_roc_grotesk_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 h1, h2, h3, h4, h5, p {
   font-family: $u-sans;
