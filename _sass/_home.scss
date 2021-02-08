@@ -34,7 +34,7 @@
           margin-left: auto;
           display: block;
           margin-right: 20px;
-          margin-top: 130px;
+          margin-top: 100px;
         }
       }
     }
@@ -49,7 +49,7 @@
   }
 
   .text-wrapper {
-    h1 {
+    h2 {
       margin-left: 30px;
       width: calc(var(--char-total) * 1.2rem);
       display: block;
@@ -60,10 +60,17 @@
       offset-path: path('M1 12.5003C22.5 35.8336 97 82.9997 182 44.5C261.373 8.549 295 -5.49973 338 3.50027');
       offset-distance: var(--offset);
       position: absolute;
-      animation: move 1500ms infinite alternate forwards var(--delay, 0ms);
+      animation: moveTwo 2000ms infinite alternate forwards var(--delay, 0ms);
       font-size: 50px;
       font-family: $u-compressed;
       text-transform: uppercase;
+      }
+    }
+
+    @keyframes moveTwo {
+      100% {
+        // --i: 2rem;
+        offset-distance: calc(var(--offset) + 5rem);
       }
     }
 
@@ -71,7 +78,7 @@
       margin-left: 20px;
       width: 25px;
       height: auto;
-      margin-top: 60px;
+      margin-top: 50px;
       path {
         fill: #333;
       }
