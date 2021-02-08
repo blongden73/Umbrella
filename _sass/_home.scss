@@ -5,6 +5,10 @@
 
 .flex {
   display: flex;
+
+  &.flipped {
+    flex-direction: row-reverse;
+  }
 }
 
 .umbrella_work {
@@ -30,6 +34,7 @@
           margin-left: auto;
           display: block;
           margin-right: 20px;
+          margin-top: 130px;
         }
       }
     }
@@ -66,6 +71,7 @@
       margin-left: 20px;
       width: 25px;
       height: auto;
+      margin-top: 60px;
       path {
         fill: #333;
       }
@@ -177,5 +183,78 @@
     background-color: #121212;
     border-radius: 50%;
     margin-right: 10px;
+  }
+}
+
+.section-title {
+  width: 100%;
+
+  h2 {
+    padding-left: 2%;
+    font-family: $u-compressed;
+    font-size: 25.5vw;
+    line-height: 0.8;
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+  }
+}
+
+.wavey .char{
+  --offset: calc(var(--char-index) * 2.8rem);
+  offset-path: path('M0.5 297.001C37 262.667 139.8 194.001 259 194.001C408 194.001 457 242.501 687.5 242.501C918 242.501 965 57.0006 1169 57.0006C1331 57.0003 1362 1.00013 1480.5 1');
+  offset-distance: var(--offset);
+  position: absolute;
+  animation: move 1500ms infinite alternate forwards var(--delay, 0ms);
+  font-size: 120px;
+  font-family: $u-compressed;
+  text-transform: uppercase;
+  color: #fff;
+  animation: move 2000ms infinite alternate forwards var(--delay, 0ms);
+}
+
+@keyframes move {
+  100% {
+    // --i: 2rem;
+    offset-distance: calc(var(--offset) + 10rem);
+  }
+}
+
+.wavey-two .char{
+  --offset: calc(var(--char-index) * 1.6rem);
+  offset-path: path('M1.00488 154.703C33.3015 209.956 94.0063 278.141 198.038 217.333C272.716 173.682 383.522 202.737 434.994 290.796');
+  offset-distance: var(--offset);
+  position: absolute;
+  animation: move 1500ms infinite alternate forwards var(--delay, 0ms);
+  font-size: 80px;
+  font-family: $u-compressed;
+  text-transform: uppercase;
+}
+
+.uk-slidenav-previous, .uk-slidenav-next {
+  background-color: $blue;
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.uk-slidenav-next {
+  padding-left: 18px;
+  padding-right: 9px;
+}
+
+.uk-slider-items {
+  li {
+    h2 {
+      font-size: 100px;
+      font-family: $u-compressed;
+      text-transform: uppercase;
+    }
+    &:nth-child(odd) {
+      margin-top: 100px;
+    }
   }
 }
