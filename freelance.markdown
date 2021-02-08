@@ -49,6 +49,14 @@ Get Involved list:
   Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
     for lorem ipsum dolor est. '
   Link: 
+- Title: Tea time with the team
+  Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
+    for lorem ipsum dolor est. '
+  Link: 
+- Title: 'Events '
+  Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
+    for lorem ipsum dolor est. '
+  Link: 
 Umbrella Studios Gallery:
 - Image: 
 Umbrella Studios Description: We’re looking for lorem ipsum dolor est. We’ve got a
