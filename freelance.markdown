@@ -27,7 +27,7 @@ Join CTA:
     your freelance mates
   Link: 
 How it works title: How it works
-How it workd:
+How it works:
 - Word: Collaborate
   Text: When you are part of an umbrella team, you are core to the delivery of the
     project and a hugely important asset to our client.
