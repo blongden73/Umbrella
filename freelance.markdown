@@ -40,6 +40,9 @@ How it works:
 - Word: Collaborate
   Text: When you are part of an umbrella team, you are core to the delivery of the
     project and a hugely important asset to our client.
+- Word: Something
+  Text: When you are part of an umbrella team, you are core to the delivery of the
+    project and a hugely important asset to our client.
 Get Involved Title: Get Involved
 Get Involved list:
 - Title: Slack us
