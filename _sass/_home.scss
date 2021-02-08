@@ -152,7 +152,7 @@
     offset-distance: calc(var(--char-index) * 5rem);
     position: absolute;
     animation: loop 10000ms cubic-bezier(.62,.01,.6,1.01) infinite alternate calc(var(--char-index) * 20ms);
-    font-size: 65px;
+    font-size: 150px;
     text-transform: uppercase;
     color: #FBE04B;
 
@@ -165,18 +165,22 @@
     50% {
       offset-distance: calc((var(--char-index) * 1.3rem) + 100px);
       color: hotpink;
+      font-size: 65px;
     }
     60% {
       offset-distance: calc((var(--char-index) * 1.3rem) + 100px);
       color: hotpink;
+      font-size: 65px;
     }
     70% {
       offset-distance: calc((var(--char-index) * 1.3rem) + 100px);
       color: hotpink;
+      font-size: 65px;
     }
     100% {
       offset-distance: calc((var(--char-index) * 1.3rem) + 1000px);
       color: #FBE04B;
+      font-size: 65px;
     }
   }
 }
