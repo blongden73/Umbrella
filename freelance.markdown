@@ -58,7 +58,7 @@ Get Involved list:
     for lorem ipsum dolor est. '
   Link: 
 Umbrella Studios Gallery:
-- Image: 
+- Image: "/uploads/Screenshot%202020-06-19%20at%2015.17%201.png"
 Umbrella Studios Description: We’re looking for lorem ipsum dolor est. We’ve got a
   new project. We’re looking for lorem ipsum dolor est. We’ve got a new project
 layout: freelance
