@@ -7,16 +7,51 @@ function menu(){
   var body = document.querySelector('body');
   console.log(freelance);
   freelance.addEventListener('click', function(){
-    this.parentNode.classList.toggle('open');
-    menuParent.classList.toggle('open');
-    body.classList.toggle('open');
+    // this.parentNode.classList.toggle('open');
+    // menuParent.classList.toggle('open');
+    // body.classList.toggle('open');
+    if(!this.parentNode.classList.contains('open') && !client.parentNode.classList.contains('open')) {
+      this.parentNode.classList.add('open');
+      menuParent.classList.add('open');
+      body.classList.add('open');
+    } else if(client.parentNode.classList.contains('open')){
+      client.parentNode.classList.remove('open');
+      this.parentNode.classList.add('open');
+      menuParent.classList.add('open');
+    } else {
+      this.parentNode.classList.remove('open');
+      menuParent.classList.remove('open');
+      body.classList.remove('open');
+    }
   });
   client.addEventListener('click', function(){
-    this.parentNode.classList.toggle('open');
-    menuParent.classList.toggle('open');
-    body.classList.toggle('open');
+    if(!this.parentNode.classList.contains('open') && !freelance.parentNode.classList.contains('open')) {
+      this.parentNode.classList.add('open');
+      menuParent.classList.add('open');
+      body.classList.add('open');
+    }else if(freelance.parentNode.classList.contains('open')) {
+      freelance.parentNode.classList.remove('open');
+      this.parentNode.classList.add('open');
+      menuParent.classList.add('open');
+    } else {
+      this.parentNode.classList.remove('open');
+      menuParent.classList.remove('open');
+      body.classList.remove('open');
+    }
+
+    // if(freelance.parentNode.classList.contains('open')) {
+    //   menuParent.classList.add('open');
+    //   console.log(freelance, 'FREELANCE')
+    //   freelance.parentNode.classList.remove('open');
+    //   body.classList.toggle('open');
+    // } else {
+    //   menuParent.classList.toggle('open');
+    //   this.parentNode.classList.toggle('open');
+    // }
   });
 }menu();
+
+
 
 Splitting({
 	whitespace: true
