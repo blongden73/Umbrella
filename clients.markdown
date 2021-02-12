@@ -16,12 +16,12 @@ Join Description: "Instead of in-house staff we curate bespoke teams\nfrom our v
   So you only pay for\nbrilliant minds, and not ping pong tables and pot \nplants.
   \n\nIt means we think boutique but behave big. "
 Join CTA:
-- Title:
-  Text:
-  Link:
+- Title: 
+  Text: 
+  Link: 
 - Title: Tell someone
-  Text:
-  Link:
+  Text: 
+  Link: 
 How it works title: How it works
 How it works:
 - Word: Collaborate
@@ -44,18 +44,19 @@ Get Involved list:
 - Title: Slack us
   Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
     for lorem ipsum dolor est. '
-  Link:
+  Link: 
 - Title: Tea time with the team
   Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
     for lorem ipsum dolor est. '
-  Link:
+  Link: 
 - Title: 'Events '
   Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
     for lorem ipsum dolor est. '
-  Link:
+  Link: 
 Umbrella Studios Gallery:
 - Image: "/uploads/Screenshot%202020-06-19%20at%2015.17%201.png"
 Umbrella Studios Description: We’re looking for lorem ipsum dolor est. We’ve got a
   new project. We’re looking for lorem ipsum dolor est. We’ve got a new project
 layout: freelance
 ---
+
