@@ -19,7 +19,7 @@ Join CTA:
 - Title: 
   Text: 
   Link: 
-- Title: Tell someone
+- Title: 
   Text: 
   Link: 
 How it works title: How it works
