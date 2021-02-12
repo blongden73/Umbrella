@@ -1,8 +1,8 @@
 ---
 title: Clients
 date: 2021-02-05 23:22:00 Z
-Page Title: An agency that works for you
-Page Image: "/uploads/da3c4ba9aa4a56c5754e9d152697e2b8.jpg"
+Page Title: Unique teams for every brief
+Page Image: "/uploads/1189f27c2ebd3364d3ab887cd292ea97-b2de05.jpg"
 Page Description: "Umbrella is a creative agency built on freelance\ncommunities.
   We are building relationships with \nthousands of independent experts across the
   \nglobe to create bespoke teams for all our  clients.\nIt means we bring in the
@@ -10,22 +10,17 @@ Page Description: "Umbrella is a creative agency built on freelance\ncommunities
   doing things you love and less on the \nthings you don’t.\n"
 Join Title: Join the Gang
 Join Image: "/uploads/1189f27c2ebd3364d3ab887cd292ea97.jpg"
-Join Description: "We’re not interested in building an agency full of\nbored and overworked
-  employees. We want to \nbuild an agency that keeps people freelancing\nfor as long
-  as possible so that we can harness all\nthat creative freedom and joy into great
-  results\nfor our clients.\n\nWe only employ a bare bones (but crucial) \nsupport
-  team to keep us operating. All our project\nteams are sourced from our network of
-  people \nlike you."
+Join Description: "Instead of in-house staff we curate bespoke teams\nfrom our vast
+  network of planners, strategists,\nresearchers, writers, creatives and producers.\n\nInstead
+  of costly offices we run our own co-working \nstudio that our freelancers rent.
+  So you only pay for\nbrilliant minds, and not ping pong tables and pot \nplants.
+  \n\nIt means we think boutique but behave big. "
 Join CTA:
-- Title: Create profile
-  Text: |-
-    Please fill out this form
-    and we’ll be in touch
+- Title:
+  Text:
   Link:
 - Title: Tell someone
-  Text: |-
-    Share this page with
-    your freelance mates
+  Text:
   Link:
 How it works title: How it works
 How it works:
