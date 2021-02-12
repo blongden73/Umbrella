@@ -64,6 +64,3 @@ Umbrella Studios Description: We’re looking for lorem ipsum dolor est. We’ve
   new project. We’re looking for lorem ipsum dolor est. We’ve got a new project
 layout: freelance
 ---
-
-
----
