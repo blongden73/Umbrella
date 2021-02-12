@@ -16,22 +16,13 @@ Join Description: "Instead of in-house staff we curate bespoke teams\nfrom our v
   So you only pay for\nbrilliant minds, and not ping pong tables and pot \nplants.
   \n\nIt means we think boutique but behave big. "
 How it works title: Our Mantra
-How it works:
-- Word: Collaborate
-  Text: When you are part of an umbrella team, you are core to the delivery of the
-    project and a hugely important asset to our client.
-- Word: Collaborate
-  Text: When you are part of an umbrella team, you are core to the delivery of the
-    project and a hugely important asset to our client.
-- Word: Collaborate
-  Text: When you are part of an umbrella team, you are core to the delivery of the
-    project and a hugely important asset to our client.
-- Word: Collaborate
-  Text: When you are part of an umbrella team, you are core to the delivery of the
-    project and a hugely important asset to our client.
-- Word: Something
-  Text: When you are part of an umbrella team, you are core to the delivery of the
-    project and a hugely important asset to our client.
+Mantra description: "We only have one north star and that is to acheive true creative
+  freedom\n\nWe beleive it’s better for the soul. When we have the freedom to work
+  houw we want to, with the time we need, and in places we love, we are happier and
+  less stressed. \n\nIt’s better for ideas. Whenwe have the freedom to work with different
+  minds in different places all over the world, it’s more inspiring for creative thinking.\n\nAnd
+  it’s better for business. When we work with truly inspired and eclectic minds, it
+  gets better results for us and our clients."
 Get Involved Title: Get Involved
 Get Involved list:
 - Title: Slack us
