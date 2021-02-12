@@ -131,6 +131,11 @@
   background-color: #D2DFD8;
   height: 100vh;
 
+  &.our-mantra {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
   .flex {
     & > * {
       width: 100%;
@@ -270,6 +275,10 @@
         text-transform: uppercase;
         font-size: 120px;
         transform: none;
+
+        &.left {
+          left: 5%;
+        }
       }
     }
   }

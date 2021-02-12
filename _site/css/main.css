@@ -295,6 +295,8 @@ a:hover { text-decoration: none; }
 
 .uk-slider-items li:nth-child(odd) { margin-top: 100px; }
 
+.our-mantra p { font-family: 'roc_groteskwide_medium'; font-size: 35px; margin-left: 32%; margin-right: 14%; }
+
 .umbrella_menu { position: fixed; right: 0; top: 0; bottom: 0; width: 100px; transition: all ease-in-out 0.5s; display: flex; justify-content: flex-end; }
 
 .umbrella_menu.open { width: 100%; z-index: 1000; }
@@ -337,6 +339,8 @@ a:hover { text-decoration: none; }
 .freelance-intro { height: 100vh; background-color: white; }
 
 .freelance-process { background-color: #D2DFD8; height: 100vh; }
+
+.freelance-process.our-mantra { height: auto; padding-bottom: 30px; }
 
 .freelance-process .flex > * { width: 100%; }
 
@@ -383,6 +387,8 @@ a:hover { text-decoration: none; }
 .page-headline.top h2 { top: 0; }
 
 .page-headline.top h2.straight-up { font-family: "roc_groteskcompressed_bold"; top: 50px; left: 15%; text-transform: uppercase; font-size: 120px; transform: none; }
+
+.page-headline.top h2.straight-up.left { left: 5%; }
 
 .page-headline .cta-list { margin-top: 20px; }
 
