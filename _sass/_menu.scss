@@ -461,3 +461,11 @@
     }
   }
 }
+
+.page-image {
+  .image-wrapper {
+    img {
+      mix-blend-mode: exclusion;
+    }
+  }
+}

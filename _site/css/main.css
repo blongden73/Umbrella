@@ -448,4 +448,6 @@ a:hover { text-decoration: none; }
 
 .our-work .project-list li { font-family: "roc_groteskregular"; text-transform: uppercase; letter-spacing: 1.5px; color: #121212; margin-top: 20px; margin-right: 20px; }
 
+.page-image .image-wrapper img { mix-blend-mode: exclusion; }
+
 /*# sourceMappingURL=main.css.map */
