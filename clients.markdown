@@ -15,7 +15,7 @@ Join Description: "Instead of in-house staff we curate bespoke teams\nfrom our v
   of costly offices we run our own co-working \nstudio that our freelancers rent.
   So you only pay for\nbrilliant minds, and not ping pong tables and pot \nplants.
   \n\nIt means we think boutique but behave big. "
-How it works title: How it works
+How it works title: Our Mantra
 How it works:
 - Word: Collaborate
   Text: When you are part of an umbrella team, you are core to the delivery of the
