@@ -76,7 +76,7 @@ a:hover { text-decoration: none; }
 
 .center { position: absolute; top: 50%; transform: translateY(-50%); width: 90%; }
 
-.umbrella-header { width: 100%; background-color: transparent; z-index: 10; padding-left: 1%; padding-top: 20px; padding-bottom: 20px; box-sizing: border-box; position: absolute; }
+.umbrella-header { width: 100%; background-color: transparent; z-index: 100000; padding-left: 4%; padding-top: 20px; padding-bottom: 20px; box-sizing: border-box; position: absolute; }
 
 .umbrella-header .umbrealla-header__logo { width: max-content; height: 12vh; }
 
