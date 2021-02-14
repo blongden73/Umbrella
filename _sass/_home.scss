@@ -14,7 +14,11 @@
 .umbrella_work {
   margin-top: 60px;
   padding-left: 2%;
-  padding-right: 9%;
+  padding-right: 2%;
+
+  @include mq($from: desktop) {
+    padding-right: 9%;
+  }
 
   .flex {
     flex-direction: column;
@@ -24,9 +28,18 @@
     width: 100%;
     display: flex;
     margin-bottom: 40px;
+    flex-direction: column;
+
+    @include mq($from: desktop) {
+      flex-direction: row;
+    }
 
     &:nth-child(even) {
-      flex-direction: row-reverse;
+      flex-direction: column;
+
+      @include mq($from: desktop) {
+        flex-direction: row-reverse;
+      }
 
       .text-wrapper {
         svg {
@@ -41,7 +54,11 @@
   }
 
   .project_inner {
-    width: 60%;
+    width: 100%;
+
+    @include mq($from: desktop) {
+      width: 60%;
+    }
   }
 
   .title_wrapper {
@@ -136,7 +153,34 @@
   animation-fill-mode: forwards;
 }
 
+.mobile-header {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 96%;
+
+  h2 {
+    font-family: $u-compressed;
+    font-size: 66px;
+    line-height: 0.8;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  @include mq($from: desktop) {
+    display: none;
+  }
+}
+
 .homepage-animation {
+  display: none;
+
+  @include mq($from: desktop) {
+    display: block;
+  }
+
   h2 {
     margin-bottom: 0;
     position: absolute;

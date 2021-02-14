@@ -1,12 +1,21 @@
 .umbrella_menu {
   position: fixed;
   right: 0;
-  top: 0;
   bottom: 0;
-  width: 100px;
+  width: 100%;
   transition: all ease-in-out 0.5s;
   display: flex;
   justify-content: flex-end;
+  flex-direction: column;
+  height: 100px;
+  z-index: 100000;
+
+  @include mq($from: desktop) {
+    display: flex;
+    width: 100px;
+    flex-direction: row;
+    top: 0;
+  }
 
   &.open {
     width: 100%;
@@ -15,35 +24,49 @@
 }
 
 .umbrella_freelance, .umbrella_clients {
-  width: 50px;
+  width: 100%;
   background-color: #F1CCDD;
   height: 100vh;
   position: relative;
   transition: all ease-in-out 0.5s;
   z-index: 1000;
 
+  @include mq($from: desktop) {
+    width: 50px;
+  }
+
   h1 {
     font-size: 24px;
     width: max-content;
     color: #fff;
     position: absolute;
-    top: 130px;
+    top: 2px;
     margin-bottom: 0;
-    left: 50%;
+    left: 2%;
     font-size: 50px;
     transform-origin: left;
-    transform: rotate(90deg);
+    transform: rotate(0deg);
     transition: all ease-in-out 0.5s;
     font-family: $u-compressed;
     color: #121212;
     text-transform: uppercase;
     z-index: 10000;
 
+    @include mq($from: desktop) {
+      transform: rotate(90deg);
+      left: 50%;
+      top: 130px;
+    }
+
     span {
       font-family: $u-sans;
       font-size: 16px;
       text-transform: capitalize;
-      margin-left: 10px;
+      margin-left: 3px;
+
+      @include mq($from: desktop) {
+        margin-left: 10px;
+      }
     }
   }
 }
