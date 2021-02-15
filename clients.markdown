@@ -2,7 +2,7 @@
 title: Clients
 date: 2021-02-05 23:22:00 Z
 Page Title: Unique teams for every brief
-Page Image: "/uploads/1189f27c2ebd3364d3ab887cd292ea97-b2de05.jpg"
+Page Image: "/uploads/Screenshot%202021-02-15%20at%2014.10.39.png"
 Page Description: "Umbrella is a creative agency built on freelance\ncommunities.
   We are building relationships with \nthousands of independent experts across the
   \nglobe to create bespoke teams for all our  clients.\nIt means we bring in the
