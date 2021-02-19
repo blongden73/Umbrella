@@ -200,6 +200,12 @@
   background-color: $blue;
   padding-bottom: 50px;
 
+  &.undercover  {
+    .role-title {
+      min-height: 170px !important;
+    }
+  }
+
   .section-title {
     h2 {
       -webkit-text-stroke: 2px #fff;
@@ -224,7 +230,13 @@
     .role-image {
       background-color: #333;
       width: 100%;
-      height: 300px;
+      height: 240px;
+
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
     }
 
     .role-sub {
@@ -233,6 +245,7 @@
       letter-spacing: 1.5px;
       color: #fff;
       margin-top: 20px;
+      min-height: 16px;
     }
 
     .role-title {
@@ -240,12 +253,19 @@
       font-family: $u-compressed;
       text-transform: uppercase;
       margin-top: 20px;
+      min-height: 100px;
 
       h2 {
         color: #fff;
         font-family: 'roc_groteskwide_medium';
         font-size: 40px;
+        line-height: 1;
       }
+    }
+
+    .role-text {
+      min-height: 96px;
+      max-height: 96px;
     }
 
     .role-cta {
@@ -461,7 +481,7 @@
 
   h2.wavey {
     position: absolute;
-    top: 0;
+    top: 110px;
 
     .char {
       offset-path: path('M.2 219.6c247-107 233.3 91.4 406.4 138.4C659.2 426.6 750.2 6.6 552.2.6 337.7-5.9 426.9 415 696.1 359.4c256.1-52.9 182.1-217.9 413.1-163.9');
