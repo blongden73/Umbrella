@@ -38,6 +38,20 @@ function menu(){
   });
 }menu();
 
+function accordian(){
+  var workWrapper = document.querySelectorAll('.project_wrapper');
+
+  for(i=0; i<workWrapper.length; i++){
+    workWrapper[i].addEventListener('click', function(){
+      var expandProject = this.querySelector('.expand-project span');
+      console.log(this);
+      var accordian = this.nextElementSibling;
+      console.log(accordian);
+      accordian.classList.toggle('open');
+      expandProject.classList.toggle('open');
+    });
+  }
+}accordian();
 
 
 Splitting({

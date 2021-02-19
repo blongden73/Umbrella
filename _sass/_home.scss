@@ -22,33 +22,67 @@
 
   .flex {
     flex-direction: column;
+
+    & > * {
+      &:nth-child(1n+2) {
+        flex-direction: column;
+
+        @include mq($from: desktop) {
+          flex-direction: row-reverse;
+        }
+
+        .text-wrapper {
+          svg {
+            transform: scaleX(-1);
+            margin-left: auto;
+            display: block;
+            margin-right: 20px;
+            margin-top: 100px;
+          }
+        }
+      }
+    }
+
   }
 
   .project_wrapper {
     width: 100%;
     display: flex;
     margin-bottom: 40px;
+    margin-top: 20px;
     flex-direction: column;
+    cursor: pointer;
 
     @include mq($from: desktop) {
       flex-direction: row;
     }
+  }
 
-    &:nth-child(even) {
-      flex-direction: column;
+  .project-accordian {
+    width: 100% !important;
+    overflow: hidden;
+    height: 0;
 
-      @include mq($from: desktop) {
-        flex-direction: row-reverse;
+    &.open {
+      height: auto;
+
+      & > * {
+        opacity: 1;
       }
+    }
 
-      .text-wrapper {
-        svg {
-          transform: scaleX(-1);
-          margin-left: auto;
-          display: block;
-          margin-right: 20px;
-          margin-top: 100px;
-        }
+    & > * {
+      opacity: 0;
+      transition: all ease-in-out 0.5s;
+      transition-delay: 0.5s;
+    }
+
+    img {
+      margin-bottom: 20px;
+      width: 100%;
+
+      &:nth-child(even) {
+        width: 50%;
       }
     }
   }
@@ -66,6 +100,8 @@
   }
 
   .text-wrapper {
+    position: relative;
+
     h2 {
       margin-left: 30px;
       width: calc(var(--char-total) * 1.2rem);
@@ -82,6 +118,11 @@
       font-family: $u-compressed;
       text-transform: uppercase;
       }
+    }
+    p {
+      position: absolute;
+      bottom: 0px;
+      left: 10px;
     }
 
     @keyframes moveTwo {
@@ -108,6 +149,10 @@
     background-color: black;
     margin-bottom: 10px;
     position: relative;
+    transition: all ease-in-out 0.5s;
+
+    &:hover {
+    }
 
     img {
       width: 100%;
@@ -231,6 +276,25 @@
 
 .dots {
   display: flex;
+
+  .expand-project {
+    font-family: $u-sans;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    span {
+      transition: all ease-in-out 0.2s;
+      display: inline-block;
+      transform-origin: center;
+
+      &.open {
+        transform: rotate(240deg);
+      }
+    }
+
+
+  }
 
   .dot {
     width: 5px;

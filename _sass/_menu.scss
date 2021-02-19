@@ -484,7 +484,7 @@
     top: 110px;
 
     .char {
-      offset-path: path('M.2 219.6c247-107 233.3 91.4 406.4 138.4C659.2 426.6 750.2 6.6 552.2.6 337.7-5.9 426.9 415 696.1 359.4c256.1-52.9 182.1-217.9 413.1-163.9');
+      offset-path: path('M1 530.29C621.77 640.273 876.758 527.845 983.364 237.578C1078.3 -20.9206 637.122 -81.1124 539.548 124.564C449.574 314.222 311.152 932.984 1717 357.954');
       offset-distance: calc(var(--char-index) * 2.5rem);
       position: absolute;
       animation: loopTwo 3500ms cubic-bezier(.62,.01,.42,1.01) infinite alternate calc(var(--char-index) * 10ms);

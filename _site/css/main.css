@@ -223,15 +223,27 @@ a:hover { text-decoration: none; }
 
 .umbrella_work .flex { flex-direction: column; }
 
-.umbrella_work .project_wrapper { width: 100%; display: flex; margin-bottom: 40px; flex-direction: column; }
+.umbrella_work .flex > *:nth-child(1n+2) { flex-direction: column; }
+
+@media all and (min-width: 61.25em) { .umbrella_work .flex > *:nth-child(1n+2) { flex-direction: row-reverse; } }
+
+.umbrella_work .flex > *:nth-child(1n+2) .text-wrapper svg { transform: scaleX(-1); margin-left: auto; display: block; margin-right: 20px; margin-top: 100px; }
+
+.umbrella_work .project_wrapper { width: 100%; display: flex; margin-bottom: 40px; margin-top: 20px; flex-direction: column; cursor: pointer; }
 
 @media all and (min-width: 61.25em) { .umbrella_work .project_wrapper { flex-direction: row; } }
 
-.umbrella_work .project_wrapper:nth-child(even) { flex-direction: column; }
+.umbrella_work .project-accordian { width: 100% !important; overflow: hidden; height: 0; }
 
-@media all and (min-width: 61.25em) { .umbrella_work .project_wrapper:nth-child(even) { flex-direction: row-reverse; } }
+.umbrella_work .project-accordian.open { height: auto; }
 
-.umbrella_work .project_wrapper:nth-child(even) .text-wrapper svg { transform: scaleX(-1); margin-left: auto; display: block; margin-right: 20px; margin-top: 100px; }
+.umbrella_work .project-accordian.open > * { opacity: 1; }
+
+.umbrella_work .project-accordian > * { opacity: 0; transition: all ease-in-out 0.5s; transition-delay: 0.5s; }
+
+.umbrella_work .project-accordian img { margin-bottom: 20px; width: 100%; }
+
+.umbrella_work .project-accordian img:nth-child(even) { width: 50%; }
 
 .umbrella_work .project_inner { width: 100%; }
 
@@ -239,9 +251,13 @@ a:hover { text-decoration: none; }
 
 .umbrella_work .title_wrapper { width: 40%; }
 
+.umbrella_work .text-wrapper { position: relative; }
+
 .umbrella_work .text-wrapper h2 { margin-left: 30px; width: calc(var(--char-total) * 1.2rem); display: block; }
 
 .umbrella_work .text-wrapper h2 .char { --offset: calc(var(--char-index) * 1.2rem); offset-path: path("M1 12.5003C22.5 35.8336 97 82.9997 182 44.5C261.373 8.549 295 -5.49973 338 3.50027"); offset-distance: var(--offset); position: absolute; animation: moveTwo 2000ms infinite alternate forwards var(--delay, 0ms); font-size: 50px; font-family: "roc_groteskcompressed_bold"; text-transform: uppercase; }
+
+.umbrella_work .text-wrapper p { position: absolute; bottom: 0px; left: 10px; }
 
 @keyframes moveTwo { 100% { offset-distance: calc(var(--offset) + 5rem); } }
 
@@ -249,7 +265,7 @@ a:hover { text-decoration: none; }
 
 .umbrella_work .text-wrapper svg path { fill: #333; }
 
-.umbrella_work .work_wrapper { width: 100%; height: 60vh; background-color: black; margin-bottom: 10px; position: relative; }
+.umbrella_work .work_wrapper { width: 100%; height: 60vh; background-color: black; margin-bottom: 10px; position: relative; transition: all ease-in-out 0.5s; }
 
 .umbrella_work .work_wrapper img { width: 100%; height: 100%; object-fit: cover; position: absolute; }
 
@@ -292,6 +308,12 @@ a:hover { text-decoration: none; }
     font-size: 6vh; } }
 
 .dots { display: flex; }
+
+.dots .expand-project { font-family: "roc_groteskregular"; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; }
+
+.dots .expand-project span { transition: all ease-in-out 0.2s; display: inline-block; transform-origin: center; }
+
+.dots .expand-project span.open { transform: rotate(240deg); }
 
 .dots .dot { width: 5px; height: 5px; background-color: #121212; border-radius: 50%; margin-right: 10px; }
 
@@ -472,7 +494,7 @@ a:hover { text-decoration: none; }
 
 .umbrella_studios h2.wavey { position: absolute; top: 110px; }
 
-.umbrella_studios h2.wavey .char { offset-path: path("M.2 219.6c247-107 233.3 91.4 406.4 138.4C659.2 426.6 750.2 6.6 552.2.6 337.7-5.9 426.9 415 696.1 359.4c256.1-52.9 182.1-217.9 413.1-163.9"); offset-distance: calc(var(--char-index) * 2.5rem); position: absolute; animation: loopTwo 3500ms cubic-bezier(0.62, 0.01, 0.42, 1.01) infinite alternate calc(var(--char-index) * 10ms); }
+.umbrella_studios h2.wavey .char { offset-path: path("M1 530.29C621.77 640.273 876.758 527.845 983.364 237.578C1078.3 -20.9206 637.122 -81.1124 539.548 124.564C449.574 314.222 311.152 932.984 1717 357.954"); offset-distance: calc(var(--char-index) * 2.5rem); position: absolute; animation: loopTwo 3500ms cubic-bezier(0.62, 0.01, 0.42, 1.01) infinite alternate calc(var(--char-index) * 10ms); }
 
 @keyframes loopTwo { 50% { offset-distance: calc((var(--char-index) * 2.8rem) + 700px);
     color: #fed561; }
