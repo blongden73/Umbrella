@@ -76,9 +76,9 @@ a:hover { text-decoration: none; }
 
 .center { position: absolute; top: 50%; transform: translateY(-50%); width: 90%; }
 
-.umbrella-header { width: 96%; background-color: transparent; z-index: 100000; padding-left: 4%; padding-top: 20px; padding-bottom: 20px; box-sizing: border-box; position: absolute; }
+.umbrella-header { width: 96%; background-color: transparent; z-index: 100000; padding-left: 4%; padding-top: 10px; padding-bottom: 20px; box-sizing: border-box; position: absolute; }
 
-.umbrella-header .umbrealla-header__logo { width: max-content; height: 12vh; }
+.umbrella-header .umbrealla-header__logo { width: max-content; height: 11vh; }
 
 .umbrella-header .umbrealla-header__logo img { width: auto; height: 100%; }
 
@@ -272,24 +272,24 @@ a:hover { text-decoration: none; }
 
 @media all and (min-width: 61.25em) { .homepage-animation { display: block; } }
 
-.homepage-animation h2 { margin-bottom: 0; position: absolute; top: -200px; left: -40px; transform: rotate(-13deg); transform-origin: left; font-family: "roc_groteskcompressed_bold"; }
+.homepage-animation h2 { margin-bottom: 0; position: absolute; top: -50vh; left: -40px; transform: rotate(-13deg); transform-origin: left; font-family: "roc_groteskcompressed_bold"; }
 
-.homepage-animation .char { offset-path: path("M1 594C1 921.505 266.495 1187 594 1187C921.505 1187 1187 921.505 1187 594C1187 266.495 921.505 1 594 1"); offset-distance: calc(var(--char-index) * 5rem); position: absolute; animation: loop 10000ms cubic-bezier(0.62, 0.01, 0.6, 1.01) infinite alternate calc(var(--char-index) * 20ms); font-size: 150px; text-transform: uppercase; color: #FBE04B; }
+.homepage-animation .char { offset-path: path("M1 594C1 921.505 266.495 1187 594 1187C921.505 1187 1187 921.505 1187 594C1187 266.495 921.505 1 594 1"); offset-distance: calc(var(--char-index) * 5rem); position: absolute; animation: loop 10000ms cubic-bezier(0.62, 0.01, 0.6, 1.01) infinite alternate calc(var(--char-index) * 20ms); font-size: 20vh; text-transform: uppercase; color: #FBE04B; }
 
 .open .homepage-animation .char { animation: none; }
 
-@keyframes loop { 50% { offset-distance: calc((var(--char-index) * 1.3rem) + 100px);
+@keyframes loop { 50% { offset-distance: calc((var(--char-index) * 1.1rem) + 100px);
     color: hotpink;
-    font-size: 65px; }
-  60% { offset-distance: calc((var(--char-index) * 1.3rem) + 100px);
+    font-size: 6vh; }
+  60% { offset-distance: calc((var(--char-index) * 1.1rem) + 100px);
     color: hotpink;
-    font-size: 65px; }
-  70% { offset-distance: calc((var(--char-index) * 1.3rem) + 100px);
+    font-size: 6vh; }
+  70% { offset-distance: calc((var(--char-index) * 1.1rem) + 100px);
     color: hotpink;
-    font-size: 65px; }
+    font-size: 6vh; }
   100% { offset-distance: calc((var(--char-index) * 1.3rem) + 1000px);
     color: #FBE04B;
-    font-size: 65px; } }
+    font-size: 6vh; } }
 
 .dots { display: flex; }
 
@@ -325,23 +325,23 @@ a:hover { text-decoration: none; }
 
 @media all and (min-width: 61.25em) { .umbrella_freelance, .umbrella_clients { width: 50px; } }
 
-.umbrella_freelance h1, .umbrella_clients h1 { font-size: 24px; width: max-content; color: #fff; position: absolute; top: 2px; margin-bottom: 0; left: 2%; font-size: 50px; transform-origin: left; transform: rotate(0deg); transition: all ease-in-out 0.5s; font-family: "roc_groteskcompressed_bold"; color: #121212; text-transform: uppercase; z-index: 10000; }
+.umbrella_freelance h1, .umbrella_clients h1 { font-size: 24px; width: max-content; color: #fff; position: absolute; top: 2px; margin-bottom: 0; left: 2%; font-size: 50px; transform-origin: left; transform: rotate(0deg); transition: all ease-in-out 0.5s; font-family: "roc_groteskcompressed_bold"; color: #121212; text-transform: uppercase; z-index: 10000; cursor: pointer; }
 
-@media all and (min-width: 61.25em) { .umbrella_freelance h1, .umbrella_clients h1 { transform: rotate(90deg); left: 50%; top: 130px; } }
+@media all and (min-width: 61.25em) { .umbrella_freelance h1, .umbrella_clients h1 { transform: rotate(90deg); left: 50%; top: 75px; } }
 
 .umbrella_freelance h1 span, .umbrella_clients h1 span { font-family: "roc_groteskregular"; font-size: 16px; text-transform: capitalize; margin-left: 3px; }
 
 @media all and (min-width: 61.25em) { .umbrella_freelance h1 span, .umbrella_clients h1 span { margin-left: 10px; } }
 
-.umbrella_freelance.open { width: 97%; overflow: scroll; }
+.umbrella_freelance.open, .umbrella_clients.open { width: 97%; overflow: scroll; }
 
-.umbrella_freelance.open p { padding-left: 10%; }
+.umbrella_freelance.open p, .umbrella_clients.open p { padding-left: 10%; }
 
-.umbrella_freelance.open h1 { left: 2%; }
+.umbrella_freelance.open h1, .umbrella_clients.open h1 { left: 2%; }
 
-.umbrella_freelance.open + .umbrella_clients { width: 50px; }
+.umbrella_freelance.open + .umbrella_clients, .umbrella_clients.open + .umbrella_clients { width: 50px; }
 
-.umbrella_freelance.open > .load-content { display: block; animation-name: visibility; animation-duration: 0.5s; animation-delay: 0.5s; animation-fill-mode: forwards; animation-iteration-count: 1; }
+.umbrella_freelance.open > .load-content, .umbrella_clients.open > .load-content { display: block; animation-name: visibility; animation-duration: 0.5s; animation-delay: 0.5s; animation-fill-mode: forwards; animation-iteration-count: 1; }
 
 .umbrella_clients.open { width: 97%; overflow: scroll; }
 
@@ -406,7 +406,7 @@ a:hover { text-decoration: none; }
 
 .page-headline { position: relative; }
 
-.page-headline h2 { position: absolute; top: 30%; left: 20%; transform: translate(-50%, -50%); }
+.page-headline h2 { position: absolute; top: 20%; left: 8%; transform: translate(-50%, -50%); }
 
 .page-headline p { position: absolute; bottom: 0; left: 5%; max-width: 600px; }
 
@@ -416,11 +416,13 @@ a:hover { text-decoration: none; }
 
 .page-headline.top h2.straight-up.left { left: 5%; }
 
+.page-headline.top p { left: 5%; padding-left: 0; }
+
 .page-headline .cta-list { margin-top: 20px; }
 
 .page-headline .cta-list > * { margin-right: 20px; }
 
-.page-headline .cta-list .h2 { font-weight: 900; }
+.page-headline .cta-list .h2 { font-weight: 900; font-family: "roc_groteskcompressed_bold"; text-transform: uppercase; font-size: 40px; }
 
 .page-headline .cta-list span { display: block; }
 
@@ -475,3 +477,5 @@ a:hover { text-decoration: none; }
 .our-work .project-list li { font-family: "roc_groteskregular"; text-transform: uppercase; letter-spacing: 1.5px; color: #121212; margin-top: 20px; margin-right: 20px; }
 
 .page-image .image-wrapper img { mix-blend-mode: exclusion; }
+
+/*# sourceMappingURL=main.css.map */

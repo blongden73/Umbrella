@@ -51,11 +51,12 @@
     color: #121212;
     text-transform: uppercase;
     z-index: 10000;
+    cursor: pointer;
 
     @include mq($from: desktop) {
       transform: rotate(90deg);
       left: 50%;
-      top: 130px;
+      top: 75px;
     }
 
     span {
@@ -71,7 +72,7 @@
   }
 }
 
-.umbrella_freelance.open {
+.umbrella_freelance.open, .umbrella_clients.open{
   width: 97%;
   overflow: scroll;
 
@@ -275,8 +276,8 @@
 
   h2 {
     position: absolute;
-    top: 30%;
-    left: 20%;
+    top: 20%;
+    left: 8%;
     transform: translate(-50%, -50%);
   }
 
@@ -304,6 +305,11 @@
         }
       }
     }
+
+    p {
+      left: 5%;
+      padding-left: 0;
+    }
   }
   .cta-list {
     margin-top: 20px;
@@ -314,6 +320,9 @@
 
     .h2 {
       font-weight: 900;
+      font-family: $u-compressed;
+      text-transform: uppercase;
+      font-size: 40px;
     }
 
 

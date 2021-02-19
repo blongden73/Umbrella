@@ -184,7 +184,7 @@
   h2 {
     margin-bottom: 0;
     position: absolute;
-    top: -200px;
+    top: -50vh;
     left: -40px;
     transform: rotate(-13deg);
     transform-origin: left;
@@ -196,7 +196,7 @@
     offset-distance: calc(var(--char-index) * 5rem);
     position: absolute;
     animation: loop 10000ms cubic-bezier(.62,.01,.6,1.01) infinite alternate calc(var(--char-index) * 20ms);
-    font-size: 150px;
+    font-size: 20vh;
     text-transform: uppercase;
     color: #FBE04B;
 
@@ -207,24 +207,24 @@
 
   @keyframes loop {
     50% {
-      offset-distance: calc((var(--char-index) * 1.3rem) + 100px);
+      offset-distance: calc((var(--char-index) * 1.1rem) + 100px);
       color: hotpink;
-      font-size: 65px;
+      font-size: 6vh;
     }
     60% {
-      offset-distance: calc((var(--char-index) * 1.3rem) + 100px);
+      offset-distance: calc((var(--char-index) * 1.1rem) + 100px);
       color: hotpink;
-      font-size: 65px;
+      font-size: 6vh;
     }
     70% {
-      offset-distance: calc((var(--char-index) * 1.3rem) + 100px);
+      offset-distance: calc((var(--char-index) * 1.1rem) + 100px);
       color: hotpink;
-      font-size: 65px;
+      font-size: 6vh;
     }
     100% {
       offset-distance: calc((var(--char-index) * 1.3rem) + 1000px);
       color: #FBE04B;
-      font-size: 65px;
+      font-size: 6vh;
     }
   }
 }
