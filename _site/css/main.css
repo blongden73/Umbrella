@@ -335,7 +335,7 @@ a:hover { text-decoration: none; }
 
 .umbrella_freelance.open, .umbrella_clients.open { width: 97%; overflow: scroll; }
 
-.umbrella_freelance.open p, .umbrella_clients.open p { padding-left: 10%; }
+.umbrella_freelance.open p, .umbrella_clients.open p { padding-left: 10%; margin-bottom: 0; }
 
 .umbrella_freelance.open h1, .umbrella_clients.open h1 { left: 2%; }
 
@@ -418,11 +418,13 @@ a:hover { text-decoration: none; }
 
 .page-headline.top p { left: 5%; padding-left: 0; }
 
-.page-headline .cta-list { margin-top: 20px; }
+.page-headline .cta-list { margin-top: 20px; border-top: 1px solid #121212; }
 
 .page-headline .cta-list > * { margin-right: 20px; }
 
 .page-headline .cta-list .h2 { font-weight: 900; font-family: "roc_groteskcompressed_bold"; text-transform: uppercase; font-size: 40px; }
+
+.page-headline .cta-list .cta:nth-child(1) { background-color: #F1CCDD; padding-left: 10px; padding-top: 2px; padding-bottom: 10px; padding-right: 10px; }
 
 .page-headline .cta-list span { display: block; }
 

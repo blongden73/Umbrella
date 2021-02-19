@@ -78,6 +78,7 @@
 
   p {
     padding-left: 10%;
+    margin-bottom: 0;
   }
 
   h1 {
@@ -313,6 +314,7 @@
   }
   .cta-list {
     margin-top: 20px;
+    border-top: 1px solid #121212;
 
     & > * {
       margin-right: 20px;
@@ -323,6 +325,14 @@
       font-family: $u-compressed;
       text-transform: uppercase;
       font-size: 40px;
+    }
+
+    .cta:nth-child(1) {
+      background-color: #F1CCDD;
+      padding-left: 10px;
+      padding-top: 2px;
+      padding-bottom: 10px;
+      padding-right: 10px;
     }
 
 
