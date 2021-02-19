@@ -170,7 +170,7 @@
     {% assign projects = site.projects %}
     <ul class="project-list">
       {% for project in projects %}
-        <li>{{project.title}}</li>
+        <a href="#{{project.title}}"><li>{{project.title}}</li></a>
       {% endfor %}
     </ul>
   </div>

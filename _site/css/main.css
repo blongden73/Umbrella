@@ -343,6 +343,16 @@ a:hover { text-decoration: none; }
 
 .umbrella_menu.open { width: 100%; z-index: 1000; }
 
+@keyframes translateIn { 0% { transform: translateX(100px); }
+  100% { transform: translateX(0px); } }
+
+@keyframes translateInFirst { 0% { transform: translateX(50px); }
+  100% { transform: translateX(0px); } }
+
+.umbrella_freelance { transform: translateX(100px); animation-name: translateIn; animation-duration: 0.5s; animation-delay: 1.5s; animation-fill-mode: forwards; animation-iteration-count: 1; }
+
+.umbrella_clients { transform: translateX(50px); animation-name: translateInFirst; animation-duration: 0.5s; animation-delay: 1s; animation-fill-mode: forwards; animation-iteration-count: 1; }
+
 .umbrella_freelance, .umbrella_clients { width: 100%; background-color: #F1CCDD; height: 100vh; position: relative; transition: all ease-in-out 0.5s; z-index: 1000; }
 
 @media all and (min-width: 61.25em) { .umbrella_freelance, .umbrella_clients { width: 50px; } }
@@ -440,7 +450,7 @@ a:hover { text-decoration: none; }
 
 .page-headline.top h2 { top: 0; }
 
-.page-headline.top h2.straight-up { font-family: "roc_groteskcompressed_bold"; top: 50px; left: 15%; text-transform: uppercase; font-size: 120px; transform: none; }
+.page-headline.top h2.straight-up { font-family: "roc_groteskcompressed_bold"; top: 50px; left: 15%; text-transform: uppercase; font-size: 120px; line-height: 0.7; transform: none; }
 
 .page-headline.top h2.straight-up.left { left: 5%; }
 
@@ -505,5 +515,19 @@ a:hover { text-decoration: none; }
 .our-work .project-list { display: flex; padding-left: 2%; margin-top: 50px; }
 
 .our-work .project-list li { font-family: "roc_groteskregular"; text-transform: uppercase; letter-spacing: 1.5px; color: #121212; margin-top: 20px; margin-right: 20px; }
+
+.pre-foot-contact { background-color: #333D49; display: flex; }
+
+.pre-foot-contact.pink { background-color: #FFA7A0; }
+
+.pre-foot-contact .left { width: 20%; }
+
+.pre-foot-contact .left img { max-height: 110px; object-fit: contain; object-position: left; }
+
+.pre-foot-contact .right { width: 80%; }
+
+.pre-foot-contact .right h1, .pre-foot-contact .right p { width: 80%; color: #fff; }
+
+.pre-foot-contact .right h1 { line-height: 1; }
 
 /*# sourceMappingURL=main.css.map */

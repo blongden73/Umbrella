@@ -2,7 +2,7 @@
   <div class="flex">
     {% assign projects = site.projects %}
     {% for project in projects %}
-    <div class="project_wrapper">
+    <div id="{{project.title | Slugify}}" class="project_wrapper">
       <div class="project_inner">
         <div class="work_wrapper">
           {% assign cover = project.['Project Cover Image'] %}
