@@ -9,7 +9,7 @@ Page Description: "Umbrella is a creative agency built on freelance\ncommunities
   briefs, manage all the \nadmin, and oversee the project so you can spend\nmore time
   doing things you love and less on the \nthings you don’t.\n"
 Join Title: Join the Gang
-Join Image: "/uploads/1189f27c2ebd3364d3ab887cd292ea97.jpg"
+Join Image: "/uploads/90089323_1747406712068542_703020400876049006_n.jpg"
 Join Description: "We’re not interested in building an agency full of\nbored and overworked
   employees. We want to \nbuild an agency that keeps people freelancing\nfor as long
   as possible so that we can harness all\nthat creative freedom and joy into great
