@@ -8,8 +8,8 @@ Page Description: "Umbrella is a creative agency built on freelance\ncommunities
   \nglobe to create bespoke teams for all our  clients.\nIt means we bring in the
   briefs, manage all the \nadmin, and oversee the project so you can spend\nmore time
   doing things you love and less on the \nthings you don’t.\n"
-Join Title: Join the Gang
-Join Image: "/uploads/1189f27c2ebd3364d3ab887cd292ea97.jpg"
+Join Title: Big Agency Walk
+Join Image: "/uploads/WhatsApp%20Image%202021-02-19%20at%2019.01.48.jpeg"
 Join Description: "Instead of in-house staff we curate bespoke teams\nfrom our vast
   network of planners, strategists,\nresearchers, writers, creatives and producers.\n\nInstead
   of costly offices we run our own co-working \nstudio that our freelancers rent.
