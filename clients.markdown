@@ -1,7 +1,7 @@
 ---
 title: Clients
 date: 2021-02-05 23:22:00 Z
-Page Title: Unique teams for every brief
+Page Title: A team only you could love
 Page Image: "/uploads/WhatsApp%20Image%202021-02-19%20at%2018.44.42.jpeg"
 Page Description: "Umbrella is a creative agency built on freelance\ncommunities.
   We are building relationships with \nthousands of independent experts across the
