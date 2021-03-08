@@ -28,31 +28,14 @@ How it works:
 - Word: It’s better for business
   Text: When we work with truly inspired and eclectic minds, it gets better results
     for our clients
-Mantra description: "We only have one north star and that is to acheive true creative
-  freedom\n\nWe beleive it’s better for the soul. When we have the freedom to work
-  houw we want to, with the time we need, and in places we love, we are happier and
-  less stressed. \n\nIt’s better for ideas. Whenwe have the freedom to work with different
-  minds in different places all over the world, it’s more inspiring for creative thinking.\n\nAnd
-  it’s better for business. When we work with truly inspired and eclectic minds, it
-  gets better results for us and our clients."
-Get Involved Title: Get Involved
-Get Involved list:
-- Title: Slack us
-  Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
-    for lorem ipsum dolor est. '
-  Link: 
-- Title: Tea time with the team
-  Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
-    for lorem ipsum dolor est. '
-  Link: 
-- Title: 'Events '
-  Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
-    for lorem ipsum dolor est. '
-  Link: 
 Umbrella Studios Gallery:
 - Image: "/uploads/Screenshot%202020-06-19%20at%2015.17%201.png"
 Umbrella Studios Description: We’re looking for lorem ipsum dolor est. We’ve got a
   new project. We’re looking for lorem ipsum dolor est. We’ve got a new project
+Built by title: Built By Experts
+Built by description: Umbrella was founded in 2016 by Tash, Tansy and Tim. We’d spent
+  decades slogging away either agency or client side, and knew there had to be a better
+  version of the 9-5 life.
 layout: freelance
 ---
 
