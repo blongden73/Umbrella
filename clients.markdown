@@ -3,18 +3,20 @@ title: Clients
 date: 2021-02-05 23:22:00 Z
 Page Title: A team only you could love
 Page Image: "/uploads/WhatsApp%20Image%202021-02-19%20at%2018.44.42.jpeg"
-Page Description: "Umbrella is a creative agency built on freelance\ncommunities.
-  We are building relationships with \nthousands of independent experts across the
-  \nglobe to create bespoke teams for all our  clients.\nIt means we bring in the
-  briefs, manage all the \nadmin, and oversee the project so you can spend\nmore time
-  doing things you love and less on the \nthings you don’t.\n"
-Join Title: An Agency built for the future
+Page Description: "We are a branding and creative studio that brings together the
+  world’s best talent, to solve your challenges. \n\nInstead of in-house and junior
+  staff we work with leading planners, strategists, researchers, writers, creatives,
+  and producers. Instead of costly offices we run our own co-working studio that our
+  freelancers rent. \n\nYou’ll pay for brilliant thinking, not for ping pong tables
+  and pot plants."
+Join Title: Built for the future
 Join Image: "/uploads/WhatsApp%20Image%202021-02-19%20at%2019.01.48.jpeg"
-Join Description: "Instead of in-house staff we curate bespoke teams\nfrom our vast
-  network of planners, strategists,\nresearchers, writers, creatives and producers.\n\nInstead
-  of costly offices we run our own co-working \nstudio that our freelancers rent.
-  So you only pay for\nbrilliant minds, and not ping pong tables and pot \nplants.
-  \n\nIt means we think boutique but behave big. "
+Join Description: "Even the one no one saw coming…\n\nWe are unshackled from the typical
+  infrastructure and overheads that traditional agencies our bound by. Instead we
+  are nimble, flexible, and can scale fast. \n\nWe’ve been working collaboratively
+  with thousands of freelances both remotely and in our co-working studio since 2016.
+  We are leading the way in providing a flexible, nimble and scalable approach to
+  working – one that will be the blueprint for agencies in years to come."
 How it works title: Our Mantra
 Mantra description: "We only have one north star and that is to acheive true creative
   freedom\n\nWe beleive it’s better for the soul. When we have the freedom to work
