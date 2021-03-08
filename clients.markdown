@@ -18,6 +18,22 @@ Join Description: "Even the one no one saw coming…\n\nWe are unshackled from t
   We are leading the way in providing a flexible, nimble and scalable approach to
   working – one that will be the blueprint for agencies in years to come."
 How it works title: Our Mantra
+How it works:
+- Word: Collaborate
+  Text: When you are part of an umbrella team, you are core to the delivery of the
+    project and a hugely important asset to our client.
+- Word: Collaborate
+  Text: When you are part of an umbrella team, you are core to the delivery of the
+    project and a hugely important asset to our client.
+- Word: Collaborate
+  Text: When you are part of an umbrella team, you are core to the delivery of the
+    project and a hugely important asset to our client.
+- Word: Collaborate
+  Text: When you are part of an umbrella team, you are core to the delivery of the
+    project and a hugely important asset to our client.
+- Word: Something
+  Text: When you are part of an umbrella team, you are core to the delivery of the
+    project and a hugely important asset to our client.
 Mantra description: "We only have one north star and that is to acheive true creative
   freedom\n\nWe beleive it’s better for the soul. When we have the freedom to work
   houw we want to, with the time we need, and in places we love, we are happier and
@@ -30,19 +46,18 @@ Get Involved list:
 - Title: Slack us
   Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
     for lorem ipsum dolor est. '
-  Link: 
+  Link:
 - Title: Tea time with the team
   Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
     for lorem ipsum dolor est. '
-  Link: 
+  Link:
 - Title: 'Events '
   Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
     for lorem ipsum dolor est. '
-  Link: 
+  Link:
 Umbrella Studios Gallery:
 - Image: "/uploads/Screenshot%202020-06-19%20at%2015.17%201.png"
 Umbrella Studios Description: We’re looking for lorem ipsum dolor est. We’ve got a
   new project. We’re looking for lorem ipsum dolor est. We’ve got a new project
 layout: freelance
 ---
-
