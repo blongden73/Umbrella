@@ -1,6 +1,8 @@
 ---
 title: Sony Music
 date: 2021-03-11 18:36:00 Z
+Project Images:
+- Image: "/uploads/sony_eq.jpg"
 ---
 
 Sony approached Umbrella to develop a new online resource portal for their in-house Audience Development Team - the final branding needed to work alongside Sony’s existing design team, 4th Floor Creative.
