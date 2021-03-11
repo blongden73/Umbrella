@@ -73,8 +73,14 @@ Get Involved list:
   Link: 
 Umbrella Studios Gallery:
 - Image: "/uploads/umbrella.jpeg"
-Umbrella Studios Description: We’re looking for lorem ipsum dolor est. We’ve got a
-  new project. We’re looking for lorem ipsum dolor est. We’ve got a new project
+Umbrella Studios Description: "We don’t think working for an agency means you need
+  to be chained to an office desk 9-5, and nothing has proven that more appropriately
+  that than the events of 2020. \n\nWork can be flexible. Work can be anywhere. \n\nBut
+  when we set up umbrella we also recognised that people like having somewhere to
+  work from, and other creative people to talk to.\n\nWe set up Umbrella Studios as
+  an antidote to fancy and expensive co-working spaces. A friendly, cheap and informal
+  place our freelancers can hang, rent a desk when they want to, and be part of a
+  bigger agency atmosphere whenever they like."
 layout: freelance
 ---
 
