@@ -12,4 +12,4 @@ Services:
 Project Cover Image: "/uploads/Brand_assets-07%201.png"
 ---
 
-This is the description of the project
+Having launched the UK category of low cal ice cream, Oppo wanted to readdress their brand in context with newer competitors. We helped them work out their position in the market and how to modernise their brand without throwing it all away. While the packs evolved to feel fresher, their broader comms was given more personality with colour and copy.
