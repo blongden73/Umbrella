@@ -30,8 +30,6 @@ How it works:
     for our clients
 Umbrella Studios Gallery:
 - Image: "/uploads/Screenshot%202020-06-19%20at%2015.17%201.png"
-Umbrella Studios Description: We’re looking for lorem ipsum dolor est. We’ve got a
-  new project. We’re looking for lorem ipsum dolor est. We’ve got a new project
 Built by title: Built By Experts
 Built by description: Umbrella was founded in 2016 by Tash, Tansy and Tim. We’d spent
   decades slogging away either agency or client side, and knew there had to be a better
