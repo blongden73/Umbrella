@@ -2,7 +2,7 @@
 title: Clients
 date: 2021-02-05 23:22:00 Z
 Page Title: A team only you could love
-Page Image: "/uploads/WhatsApp%20Image%202021-02-19%20at%2018.44.42.jpeg"
+Page Image: "/uploads/clients_lead.gif"
 Page Description: "We are a branding and creative studio that brings together the
   world’s best talent, to solve your challenges. \n\nInstead of in-house and junior
   staff we work with leading planners, strategists, researchers, writers, creatives,
