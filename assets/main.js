@@ -53,6 +53,63 @@ function accordian(){
   }
 }accordian();
 
+function elementInViewport(el) {
+  var top = el.offsetTop;
+  var left = el.offsetLeft;
+  var width = el.offsetWidth;
+  var height = el.offsetHeight;
+
+  while(el.offsetParent) {
+    el = el.offsetParent;
+    top += el.offsetTop;
+    left += el.offsetLeft;
+  }
+
+  return (
+    top < (window.pageYOffset + window.innerHeight) &&
+    left < (window.pageXOffset + window.innerWidth) &&
+    (top + height) > window.pageYOffset &&
+    (left + width) > window.pageXOffset
+  );
+}
+
+function onScroll() {
+  var elements = document.querySelectorAll('.animation-target');
+  var freelance = document.querySelector('.umbrella_freelance');
+  var clients = document.querySelector('.umbrella_clients');
+  console.log(elements);
+  document.addEventListener('scroll', function(){
+    for(i=0; i<elements.length; i++){
+      if(elementInViewport(elements[i])){
+        console.log(elements[i], 'inview');
+        elements[i].classList.add('animate');
+      }else {
+        elements[i].classList.remove('animate');
+      }
+    }
+  });
+  freelance.addEventListener('scroll', function(){
+    for(i=0; i<elements.length; i++){
+      if(elementInViewport(elements[i])){
+        console.log(elements[i], 'inview');
+        elements[i].classList.add('animate');
+      }else {
+        elements[i].classList.remove('animate');
+      }
+    }
+  });
+  clients.addEventListener('scroll', function(){
+    for(i=0; i<elements.length; i++){
+      if(elementInViewport(elements[i])){
+        console.log(elements[i], 'inview');
+        elements[i].classList.add('animate');
+      }else {
+        elements[i].classList.remove('animate');
+      }
+    }
+  });
+}onScroll();
+
 
 Splitting({
 	whitespace: true

@@ -113,10 +113,15 @@
       offset-path: path('M1 12.5003C22.5 35.8336 97 82.9997 182 44.5C261.373 8.549 295 -5.49973 338 3.50027');
       offset-distance: var(--offset);
       position: absolute;
-      animation: moveTwo 2000ms infinite alternate forwards var(--delay, 0ms);
       font-size: 50px;
       font-family: $u-compressed;
       text-transform: uppercase;
+      }
+
+      &.animate {
+        .char {
+          animation: moveTwo 2000ms infinite alternate forwards var(--delay, 0ms);
+        }
       }
     }
     p {
@@ -318,6 +323,15 @@
     color: transparent;
     -webkit-text-stroke: 2px black;
   }
+
+  p {
+    padding-left: 2% !important;
+    max-width: 60%;
+    color: #fff;
+    margin-bottom: 20px !important;
+  }
+
+
 }
 
 .wavey .char{
@@ -325,12 +339,18 @@
   offset-path: path('M0.5 297.001C37 262.667 139.8 194.001 259 194.001C408 194.001 457 242.501 687.5 242.501C918 242.501 965 57.0006 1169 57.0006C1331 57.0003 1362 1.00013 1480.5 1');
   offset-distance: var(--offset);
   position: absolute;
-  animation: move 1500ms infinite alternate forwards var(--delay, 0ms);
   font-size: 120px;
   font-family: $u-compressed;
   text-transform: uppercase;
   color: #fff;
-  animation: move 2000ms infinite alternate forwards var(--delay, 0ms);
+}
+
+.wavey {
+  &.animate {
+    .char {
+      animation: move 2000ms infinite alternate forwards var(--delay, 0ms);
+    }
+  }
 }
 
 @keyframes move {
@@ -340,15 +360,22 @@
   }
 }
 
-.wavey-two .char{
+.wavey-two .char {
   --offset: calc(var(--char-index) * 1.6rem);
   offset-path: path('M1.00488 154.703C33.3015 209.956 94.0063 278.141 198.038 217.333C272.716 173.682 383.522 202.737 434.994 290.796');
   offset-distance: var(--offset);
   position: absolute;
-  animation: move 1500ms infinite alternate forwards var(--delay, 0ms);
   font-size: 80px;
   font-family: $u-compressed;
   text-transform: uppercase;
+}
+
+.wavey-two {
+  &.animate {
+    .char {
+      animation: move 1500ms infinite alternate forwards var(--delay, 0ms);
+    }
+  }
 }
 
 .uk-slidenav-previous, .uk-slidenav-next {
@@ -369,6 +396,7 @@
   li {
     h2 {
       font-size: 100px;
+      line-height: 0.8;
       font-family: $u-compressed;
       text-transform: uppercase;
     }
