@@ -1,0 +1,6 @@
+---
+title: Grounded
+date: 2021-03-11 18:37:00 Z
+---
+
+We were approached by Grounded to help develop their overall strategy, positioning. TOV and branding. Design was stripped back, natural but bold to help stand out against the garish and ‘male focussed’ competitors in an already crowded market.
