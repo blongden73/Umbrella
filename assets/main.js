@@ -81,7 +81,6 @@ function onScroll() {
   document.addEventListener('scroll', function(){
     for(i=0; i<elements.length; i++){
       if(elementInViewport(elements[i])){
-        console.log(elements[i], 'inview');
         elements[i].classList.add('animate');
       }else {
         elements[i].classList.remove('animate');
@@ -91,7 +90,6 @@ function onScroll() {
   freelance.addEventListener('scroll', function(){
     for(i=0; i<elements.length; i++){
       if(elementInViewport(elements[i])){
-        console.log(elements[i], 'inview');
         elements[i].classList.add('animate');
       }else {
         elements[i].classList.remove('animate');
@@ -101,7 +99,6 @@ function onScroll() {
   clients.addEventListener('scroll', function(){
     for(i=0; i<elements.length; i++){
       if(elementInViewport(elements[i])){
-        console.log(elements[i], 'inview');
         elements[i].classList.add('animate');
       }else {
         elements[i].classList.remove('animate');
