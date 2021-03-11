@@ -2,7 +2,7 @@
 title: Freelance
 date: 2021-02-05 23:21:00 Z
 Page Title: An agency that works for you
-Page Image: "/uploads/WhatsApp%20Image%202021-02-19%20at%2018.44.40.jpeg"
+Page Image: "/uploads/freelance_lead.gif"
 Page Description: "Umbrella is a creative agency built on freelance\ncommunities.
   We are building relationships with \nthousands of independent experts across the
   \nglobe to create bespoke teams for all our  clients.\nIt means we bring in the
