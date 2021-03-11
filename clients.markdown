@@ -10,7 +10,7 @@ Page Description: "We are a branding and creative studio that brings together th
   freelancers rent. \n\nYou’ll pay for brilliant thinking, not for ping pong tables
   and pot plants."
 Join Title: Built for the future
-Join Image: "/uploads/WhatsApp%20Image%202021-02-19%20at%2019.01.48.jpeg"
+Join Image: "/uploads/Umbrella_Collective_Office-028.jpg"
 Join Description: "Even the one no one saw coming…\n\nWe are unshackled from the typical
   infrastructure and overheads that traditional agencies our bound by. Instead we
   are nimble, flexible, and can scale fast. \n\nWe’ve been working collaboratively
