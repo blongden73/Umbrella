@@ -3,19 +3,18 @@ title: Freelance
 date: 2021-02-05 23:21:00 Z
 Page Title: An agency that works for you
 Page Image: "/uploads/freelance_lead.gif"
-Page Description: "Umbrella is a creative agency built on freelance\ncommunities.
-  We are building relationships with \nthousands of independent experts across the
-  \nglobe to create bespoke teams for all our  clients.\nIt means we bring in the
-  briefs, manage all the \nadmin, and oversee the project so you can spend\nmore time
-  doing things you love and less on the \nthings you don’t.\n"
+Page Description: Umbrella is a branding and creative studio built on independent
+  talent. We are building relationships with thousands of independent experts across
+  the globe, to create bespoke teams for all our clients. It means we bring in the
+  briefs, manage all the admin, and oversee the project - so you can spend more time
+  doing things you love and less time on the things you don’t.
 Join Title: Join the Gang
 Join Image: "/uploads/90089323_1747406712068542_703020400876049006_n.jpg"
-Join Description: "We’re not interested in building an agency full of\nbored and overworked
-  employees. We want to \nbuild an agency that keeps people freelancing\nfor as long
-  as possible so that we can harness all\nthat creative freedom and joy into great
-  results\nfor our clients.\n\nWe only employ a bare bones (but crucial) \nsupport
-  team to keep us operating. All our project\nteams are sourced from our network of
-  people \nlike you."
+Join Description: "We’re not interested in building an agency full of bored and overworked
+  employees.   We want to build an agency that keeps people freelancing for as long
+  as possible so that we can harness all that creative joy into great results for
+  our clients. \n\nWe employ a bare bones (but crucial) support team to keep us operating.
+  All our project teams are sourced from our network of people like you."
 Join CTA:
 - Title: Create profile
   Text: |-
@@ -29,21 +28,35 @@ Join CTA:
   Link: 
 How it works title: How it works
 How it works:
-- Word: Collaborate
-  Text: When you are part of an umbrella team, you are core to the delivery of the
-    project and a hugely important asset to our client.
-- Word: Collaborate
-  Text: When you are part of an umbrella team, you are core to the delivery of the
-    project and a hugely important asset to our client.
-- Word: Collaborate
-  Text: When you are part of an umbrella team, you are core to the delivery of the
-    project and a hugely important asset to our client.
-- Word: Collaborate
-  Text: When you are part of an umbrella team, you are core to the delivery of the
-    project and a hugely important asset to our client.
-- Word: Something
-  Text: When you are part of an umbrella team, you are core to the delivery of the
-    project and a hugely important asset to our client.
+- Word: Collaborate as a team
+  Text: |-
+    When you’re part of an umbrella team, you are core to the delivery of the project and a hugely important asset to our client. The clients will get to know you. The team will rely on you. And we will, hopefully, grow very fond of you.
+
+    We’ll never air drop you into the middle of a project, give you menial tasks to deliver, and not remember your name!
+- Word: Feel the support of an agency
+  Text: We know you can spend more time looking for work and project managing it than
+    doing the work. So it’s our job to pull the perfect team together, oversee concepts
+    and manage everything through to delivery. All with the aplomb of a traditional
+    agency.
+- Word: Enjoy your freedom
+  Text: "We don’t ask for any commitment to join - just need your details. As soon
+    as there’s a perfect brief for you, we’ll get in touch. \n\nWe treat you like
+    the adults you are. Work from whenever and wherever you are. As long as you deliver
+    great work, on time and show up to checkins and meetings as needed, you could
+    be on a boat in the Seychelles for all we care (which was actually the case for
+    one lucky sod)."
+- Word: Work on different briefs
+  Text: We like to pick freelancers because of what they bring to the table, not just
+    their background. We’ve had architects work on Whiskey, and Print makers work
+    on coffee. It means you might work on clients outside your usual remit and hopefully
+    bring unique ideas to the table.
+- Word: Bring in extra cash
+  Text: "If you’ve got hold of a brief that needs more resource or an agency delivery
+    - we can take it on and manage the process from sign off, through to production.
+    In return, we give you a 3-5% commission, and you can choose how involved you
+    want to be in delivering it (for your normal day rate). \n\nWe also offer a £50
+    thank you if you recommend a freelancer for a project and we go on to contract
+    them. "
 Get Involved Title: Get Involved
 Get Involved list:
 - Title: Slack us
