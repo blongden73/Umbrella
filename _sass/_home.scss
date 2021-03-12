@@ -20,11 +20,23 @@
     padding-right: 9%;
   }
 
+  .umbrella_freelance & {
+    @include mq($from: desktop) {
+      padding-right: 3%;
+    }
+  }
+
+  .umbrella_clients & {
+    @include mq($from: desktop) {
+      padding-right: 3%;
+    }
+  }
+
   .flex {
     flex-direction: column;
 
     & > * {
-      &:nth-child(1n+2) {
+      &:nth-child(even) {
         flex-direction: column;
 
         @include mq($from: desktop) {
@@ -32,6 +44,10 @@
         }
 
         .text-wrapper {
+          h2 {
+            margin-left: auto;
+          }
+
           svg {
             transform: scaleX(-1);
             margin-left: auto;
@@ -62,6 +78,7 @@
     width: 100% !important;
     overflow: hidden;
     height: 0;
+    flex: 0;
 
     &.open {
       height: auto;
@@ -101,6 +118,7 @@
 
   .text-wrapper {
     position: relative;
+    width: 40%;
 
     h2 {
       margin-left: 30px;
@@ -124,10 +142,20 @@
         }
       }
     }
-    p {
+    .project-description {
       position: absolute;
       bottom: 0px;
       left: 10px;
+      margin-right: 10px;
+
+      .umbrella_freelance & {
+        bottom: 16px;
+        padding-left: 2%;
+
+        p {
+          padding-left: 0;
+        }
+      }
     }
 
     @keyframes moveTwo {
@@ -234,7 +262,7 @@
   h2 {
     margin-bottom: 0;
     position: absolute;
-    top: -50vh;
+    top: -56vh;
     left: -40px;
     transform: rotate(-13deg);
     transform-origin: left;
@@ -395,7 +423,7 @@
 .uk-slider-items {
   li {
     h2 {
-      font-size: 100px;
+      font-size: 70px;
       line-height: 0.8;
       font-family: $u-compressed;
       text-transform: uppercase;
@@ -428,4 +456,8 @@
   p {
     color: #121212;
   }
+}
+
+.get-involved {
+  display: none;
 }

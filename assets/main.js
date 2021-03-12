@@ -45,7 +45,7 @@ function accordian(){
     workWrapper[i].addEventListener('click', function(){
       var expandProject = this.querySelector('.expand-project span');
       console.log(this);
-      var accordian = this.nextElementSibling;
+      var accordian = this.querySelector('.project-accordian');
       console.log(accordian);
       accordian.classList.toggle('open');
       expandProject.classList.toggle('open');
