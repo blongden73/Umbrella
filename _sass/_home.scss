@@ -68,6 +68,7 @@
     margin-top: 20px;
     flex-direction: column;
     cursor: pointer;
+    flex-wrap: wrap;
 
     @include mq($from: desktop) {
       flex-direction: row;
@@ -82,6 +83,7 @@
 
     &.open {
       height: auto;
+      flex: auto;
 
       & > * {
         opacity: 1;

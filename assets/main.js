@@ -49,6 +49,10 @@ function accordian(){
       console.log(accordian);
       accordian.classList.toggle('open');
       expandProject.classList.toggle('open');
+      setTimeout(function(){
+        accordian.scrollIntoView({behavior: "smooth", block: "start"});
+      },500)
+
     });
   }
 }accordian();
