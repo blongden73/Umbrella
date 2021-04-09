@@ -1,6 +1,7 @@
 .umbrella_home-top {
   height: 100vh;
   background-color: #333D49;
+  overflow: hidden;
 }
 
 .flex {
@@ -80,6 +81,11 @@
     overflow: hidden;
     height: 0;
     flex: 0;
+    margin-top: 30px;
+
+    & > * {
+      display: none;
+    }
 
     &.open {
       height: auto;
@@ -87,6 +93,7 @@
 
       & > * {
         opacity: 1;
+        display: block;
       }
     }
 
@@ -149,6 +156,11 @@
       bottom: 0px;
       left: 10px;
       margin-right: 10px;
+      display: none;
+
+      @include mq($from: desktop) {
+        display: block;
+      }
 
       .umbrella_freelance & {
         bottom: 16px;
@@ -462,4 +474,81 @@
 
 .get-involved {
   display: none;
+}
+
+.blobs, .blobs-clients {
+  position: relative;
+
+  & > * {
+    opacity: 0;
+    transition: all ease-in-out 0.1s;
+    visibility: hidden;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform-origin: left;
+    animation-name: skew;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+
+    &.display {
+      visibility: visible;
+      transform: translate(-50%, 0%);
+      opacity: 1;
+    }
+  }
+}
+
+@keyframes skew {
+  0% {
+    transform: skew(0deg, 0deg) translate(-50%, 0%)
+  }
+  25% {
+    transform: skew(-30deg, 20deg) translate(-50%, 0%)
+  }
+  50% {
+    transform: skew(37deg, -20deg) translate(-50%, 0%)
+  }
+  75% {
+    transform: skew(-30deg, 20deg) translate(-50%, 0%)
+  }
+  100% {
+    transform: skew(0deg, 0deg) translate(-50%, 0%)
+  }
+}
+
+.blob {
+  svg {
+    path {
+      fill: #FBE04B;
+    }
+  }
+}
+
+.blob-client {
+  svg {
+    path {
+      fill: #F1CCDD;
+    }
+  }
+}
+
+.desktop-only {
+  display: none;
+
+  @include mq($from: desktop) {
+    display: block;
+  }
+}
+
+.mobile-only {
+  display: block;
+
+  @include mq($from: desktop) {
+    display: none;
+  }
 }

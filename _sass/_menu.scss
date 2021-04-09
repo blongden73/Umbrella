@@ -9,6 +9,7 @@
   flex-direction: column;
   height: 100px;
   z-index: 100000;
+  display: none;
 
   @include mq($from: desktop) {
     display: flex;
@@ -20,6 +21,11 @@
   &.open {
     width: 100%;
     z-index: 1000;
+    height: 100vh;
+    @include mq($from: desktop) {
+      width: 100%;
+      z-index: 1000;
+    }
   }
 }
 
@@ -62,13 +68,14 @@
 .umbrella_freelance, .umbrella_clients {
   width: 100%;
   background-color: #F1CCDD;
-  height: 100vh;
+  height: 66px;
   position: relative;
   transition: all ease-in-out 0.5s;
   z-index: 1000;
 
   @include mq($from: desktop) {
     width: 50px;
+    height: 100vh;
   }
 
   h1 {
@@ -109,8 +116,13 @@
 }
 
 .umbrella_freelance.open, .umbrella_clients.open{
-  width: 97%;
+  width: 100%;
+  height: 100vh;
   overflow: scroll;
+
+  @include mq($from: desktop) {
+    width: 97%;
+  }
 
   p {
     padding-left: 10%;
@@ -122,7 +134,12 @@
   }
 
   & + .umbrella_clients {
-    width: 50px;
+    width: 100%;
+    height: 66px;
+    @include mq($from: desktop) {
+      width: 50px;
+      height: 100vh;
+    }
   }
 
   & > .load-content {
@@ -136,8 +153,12 @@
 }
 
 .umbrella_clients.open {
-  width: 97%;
+  width: 100%;
   overflow: scroll;
+
+  @include mq($from: desktop) {
+    width: 97%;
+  }
 
   h1 {
     left: 2%;
@@ -330,6 +351,7 @@
 
 .page-headline {
   position: relative;
+  z-index: 1000;
 
   h2 {
     position: absolute;
@@ -600,4 +622,11 @@
       line-height: 0.8;
     }
   }
+}
+
+.closing-down {
+  height: 40px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: #FBE04B;
 }

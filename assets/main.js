@@ -111,10 +111,55 @@ function onScroll() {
   });
 }onScroll();
 
-
 Splitting({
 	whitespace: true
 })
+
+function blobs() {
+  console.log('blob');
+  var blobs = document.querySelector('.blobs');
+  var innerBlobs = document.querySelectorAll('.blob');
+  console.log(innerBlobs[0]);
+  innerBlobs[0].classList.add('display');
+
+
+  setInterval(function(){
+    var thisBlob = document.querySelector('.blob.display');
+    var nextBlob = document.querySelector('.blob.display + .blob');
+
+    if(nextBlob) {
+      nextBlob.classList.add('display');
+      thisBlob.classList.remove('display');
+    }else {
+      thisBlob.classList.remove('display');
+      innerBlobs[0].classList.add('display');
+    }
+
+  }, 4000);
+}blobs();
+
+function blobsClient() {
+  console.log('blob');
+  var blobs = document.querySelector('.blobs-clients');
+  var innerBlobs = document.querySelectorAll('.blob-client');
+  console.log(innerBlobs[0]);
+  innerBlobs[0].classList.add('display');
+
+
+  setInterval(function(){
+    var thisBlob = document.querySelector('.blob-client.display');
+    var nextBlob = document.querySelector('.blob-client.display + .blob-client');
+
+    if(nextBlob) {
+      nextBlob.classList.add('display');
+      thisBlob.classList.remove('display');
+    }else {
+      thisBlob.classList.remove('display');
+      innerBlobs[0].classList.add('display');
+    }
+
+  }, 4000);
+}blobsClient();
 
 // var slide = document.querySelector('.how-it-works-slider');
 // UIkit.slider(slide);
