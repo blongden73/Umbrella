@@ -80,7 +80,7 @@
               </span>
               <a href="{{cta.Link}}">
                 <span class="button">
-                  Do something
+                  {{cta.textButton}}
                 </span>
               </a>
             </span>
@@ -95,7 +95,7 @@
     </div>
   </div>
 </div>
-<div class="freelance-roles">
+<!-- <div class="freelance-roles">
   <div class="section-title">
     <h2 class="straight-up">Latest roles</h2>
   </div>
@@ -125,7 +125,7 @@
       </div>
     {% endfor %}
   </div>
-</div>
+</div> -->
 <div class="get-involved">
   <div class="section-title small">
     <h2>{{page.['Get Involved Title']}}</h2>
@@ -178,10 +178,12 @@
 <div class="freelance-header pink">
   <div class="flex flipped">
     <div class="page-headline top">
-      <h2 class="straight-up left">Umbrella Studios</h2>
-      <p>
-        {{page.['Umbrella Studios Description']}}
-      </p>
+      <div class="tie-up">
+        <h2 class="straight-up left">Umbrella Studios</h2>
+        <p>
+          {{page.['Umbrella Studios Description']}}
+        </p>
+      </div>
     </div>
     <div class="page-image">
       <div class="image-wrapper">

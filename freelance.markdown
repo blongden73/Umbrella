@@ -20,12 +20,14 @@ Join CTA:
   Text: |-
     Please fill out this form
     and we’ll be in touch
-  Link: 
+  Link:
+  textButton: Join The Gang
 - Title: Tell someone
   Text: |-
     Share this page with
     your freelance mates
-  Link: 
+  Link:
+  textButton: Share
 How it works title: How it works
 How it works:
 - Word: Collaborate as a team
@@ -62,15 +64,15 @@ Get Involved list:
 - Title: Slack us
   Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
     for lorem ipsum dolor est. '
-  Link: 
+  Link:
 - Title: Tea time with the team
   Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
     for lorem ipsum dolor est. '
-  Link: 
+  Link:
 - Title: 'Events '
   Text: 'We’re looking for lorem ipsum dolor est. We’ve got a new project. We’re looking
     for lorem ipsum dolor est. '
-  Link: 
+  Link:
 Umbrella Studios Gallery:
 - Image: "/uploads/umbrella.jpeg"
 Umbrella Studios Description: "We don’t think working for an agency means you need
@@ -83,4 +85,3 @@ Umbrella Studios Description: "We don’t think working for an agency means you 
   bigger agency atmosphere whenever they like."
 layout: freelance
 ---
-

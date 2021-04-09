@@ -69,6 +69,10 @@ $u-compressed-light: 'roc_groteskcompressed_medium';
     font-style: normal;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 h1, h2, h3, h4, h5, p {
   font-family: $u-sans;
 }
