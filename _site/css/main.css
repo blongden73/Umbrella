@@ -590,6 +590,8 @@ a:hover { text-decoration: none; }
 
 .pre-foot-contact .right h1 { line-height: 1; font-family: 'roc_groteskcompressed_medium'; color: transparent; -webkit-text-stroke: 1px #fff; text-transform: uppercase; font-size: 90px; line-height: 0.8; }
 
-.closing-down { height: 40px; padding-top: 20px; text-align: center; background-color: #FBE04B; }
+.closing-down { height: 50px; padding-top: 20px; text-align: center; background-color: #FBE04B; padding-left: 20px; padding-right: 20px; }
+
+@media all and (min-width: 61.25em) { .closing-down { height: 40px; } }
 
 /*# sourceMappingURL=main.css.map */
