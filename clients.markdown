@@ -12,11 +12,10 @@ Page Description: "We are a branding and creative studio that brings together th
 Join Title: Built for the future
 Join Image: "/uploads/Umbrella_Collective_Office-028.jpg"
 Join Description: "Even the one no one saw coming…\n\nWe are unshackled from the typical
-  infrastructure and overheads that traditional agencies our bound by. Instead we
-  are nimble, flexible, and can scale fast. \n\nWe’ve been working collaboratively
-  with thousands of freelances both remotely and in our co-working studio since 2016.
-  We are leading the way in providing a flexible, nimble and scalable approach to
-  working – one that will be the blueprint for agencies in years to come."
+  infrastructure and overheads that traditional agencies are bound by. \n\nWe’ve been
+  working collaboratively with thousands of freelances both remotely and in our co-working
+  studio since 2016. We are leading the way in providing a flexible, nimble and scalable
+  approach to working – one that will be the blueprint for agencies in years to come."
 How it works title: Our Mantra
 How it works:
 - Word: It’s better for the soul
