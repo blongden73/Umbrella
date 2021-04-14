@@ -1,6 +1,10 @@
 ---
 title: Manilife
 date: 2021-03-11 18:45:00 Z
+Project Images:
+- Image: "/uploads/herolw.jpg"
+- Image: "/uploads/grouplw.jpg"
+- Image: "/uploads/deep-roast-crunchylw-ae453e.jpg"
 Project Cover Image: "/uploads/group.jpg"
 ---
 
