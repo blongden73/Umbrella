@@ -1,6 +1,10 @@
 ---
 title: Daisy & Dom
 date: 2021-03-11 18:44:00 Z
+Project Images:
+- Image: "/uploads/D&D%20tesselate.jpg"
+- Image: "/uploads/D&D%20group-3275ba.jpg"
+- Image: "/uploads/bag.jpg"
 Project Cover Image: "/uploads/D&D%20group.jpg"
 ---
 
