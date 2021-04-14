@@ -1,6 +1,11 @@
 ---
 title: Lucky Saint
 date: 2021-03-11 18:34:00 Z
+Project Images:
+- Image: "/uploads/still-life.jpg"
+- Image: "/uploads/LS-ATL-c116d5.jpg"
+- Image: "/uploads/LS_nun.jpg"
+- Image: "/uploads/cheers.jpg"
 Project Cover Image: "/uploads/LS%20ATL.jpg"
 ---
 
