@@ -1,6 +1,11 @@
 ---
 title: Sony Music
 date: 2021-03-11 18:36:00 Z
+Project Images:
+- Image: "/uploads/sony_chair-82421f.jpg"
+- Image: "/uploads/sony_eq-170cf8.jpg"
+- Image: "/uploads/sony_glasses.jpg"
+- Image: "/uploads/sony_carousel-d25f24.jpg"
 Project Cover Image: "/uploads/sony_eq.jpg"
 ---
 
