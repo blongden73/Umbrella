@@ -273,7 +273,7 @@ a:hover { text-decoration: none; }
 
 .umbrella_work .text-wrapper h2.animate .char { animation: moveTwo 2000ms infinite alternate forwards var(--delay, 0ms); }
 
-.umbrella_work .text-wrapper .project-description { position: absolute; bottom: 0px; left: 10px; margin-right: 10px; display: none; }
+.umbrella_work .text-wrapper .project-description { position: absolute; bottom: 0px; left: 10px; margin-right: 60px; display: none; }
 
 @media all and (min-width: 61.25em) { .umbrella_work .text-wrapper .project-description { display: block; } }
 
@@ -616,10 +616,20 @@ a:hover { text-decoration: none; }
 
 .pre-foot-contact .right h1 { line-height: 1; font-family: 'roc_groteskcompressed_medium'; color: transparent; -webkit-text-stroke: 1px #fff; text-transform: uppercase; font-size: 90px; line-height: 0.8; }
 
-.closing-down { height: 50px; padding-top: 20px; text-align: center; background-color: #FBE04B; padding-left: 20px; padding-right: 20px; position: relative; z-index: 1000; display: none; }
+.page-overlay { z-index: 100001; background-color: rgba(0, 0, 0, 0.6); top: 0; bottom: 0; left: 0; right: 0; position: fixed; }
+
+.page-overlay.hide { display: none; }
+
+.closing-down { padding-top: 20px; text-align: center; background-color: #FBE04B; padding-left: 20px; padding-right: 20px; position: relative; z-index: 1000000; max-width: 460px; min-width: 300px; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 30px; }
+
+.closing-down.hide { display: none; }
+
+.closing-down h1 { font-family: 'roc_groteskcompressed_medium'; text-transform: uppercase; line-height: 0.8; }
+
+@media all and (max-width: 61.24em) { .closing-down h1 { font-size: 40px; margin-bottom: 10px; } }
+
+.closing-down h3 { line-height: 1.4; }
 
 .open .closing-down { display: none; }
-
-@media all and (min-width: 61.25em) { .closing-down { height: 40px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -655,22 +655,57 @@
   }
 }
 
+.page-overlay {
+  z-index: 100001;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+
+  &.hide {
+    display: none;
+  }
+}
+
 .closing-down {
-  height: 50px;
   padding-top: 20px;
   text-align: center;
   background-color: #FBE04B;
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
-  z-index: 1000;
-  display: none;
+  z-index: 1000000;
+  max-width: 460px;
+  min-width: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
 
-  .open & {
+  &.hide {
     display: none;
   }
 
-  @include mq($from: desktop) {
-    height: 40px;
+  h1 {
+    font-family: 'roc_groteskcompressed_medium';
+    text-transform: uppercase;
+    line-height: 0.8;
+
+    @include mq($until: desktop) {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+  }
+
+  h3 {
+    line-height: 1.4;
+
+  }
+
+  .open & {
+    display: none;
   }
 }

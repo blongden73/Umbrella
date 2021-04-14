@@ -161,5 +161,14 @@ function blobsClient() {
   }, 4000);
 }blobsClient();
 
+function overlay(){
+  var overlay = document.querySelector('.page-overlay');
+  var popup = document.querySelector('.closing-down');
+  overlay.addEventListener('click', function(){
+    popup.classList.add('hide');
+    overlay.classList.add('hide');
+  });
+}overlay();
+
 // var slide = document.querySelector('.how-it-works-slider');
 // UIkit.slider(slide);
