@@ -1,7 +1,6 @@
 ---
 title: Oppo Brothers
 date: 2021-02-06 15:32:00 Z
-published: false
 Project Images:
 - Image: "/uploads/oppo_packs-copy.jpg"
 - Image: "/uploads/oppo_ads.jpg"
