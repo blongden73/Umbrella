@@ -9,7 +9,7 @@ Page Description: Umbrella is a branding and creative studio built on independen
   briefs, manage all the admin, and oversee the project - so you can spend more time
   doing things you love and less time on the things you don’t.
 Join Title: Join the Gang
-Join Image: "/uploads/90089323_1747406712068542_703020400876049006_n.jpg"
+Join Image: "/uploads/umbrella.jpeg"
 Join Description: "We’re not interested in building an agency full of bored and overworked
   employees.   We want to build an agency that keeps people freelancing for as long
   as possible so that we can harness all that creative joy into great results for
