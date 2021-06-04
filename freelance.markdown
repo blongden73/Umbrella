@@ -13,8 +13,8 @@ Join Image: "/uploads/umbrella.jpeg"
 Join Description: "We’re not interested in building an agency full of bored and overworked
   employees.   We want to build an agency that keeps people freelancing for as long
   as possible so that we can harness all that creative joy into great results for
-  our clients. \n\nWe employ a bare bones (but crucial) support team to keep us operating.
-  All our project teams are sourced from our network of people like you."
+  our clients. \n\nWe employ a support team to manage every project and keep us operating.
+  All our creative teams are sourced from our network of people like you."
 Join CTA:
 - Title: Create profile
   Text: |-
