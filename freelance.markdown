@@ -2,7 +2,7 @@
 title: Freelance
 date: 2021-02-05 23:21:00 Z
 Page Title: An agency that works for you
-Page Image: "/uploads/freelance_lead.gif"
+Page Image: "/uploads/bag.jpg"
 Page Description: Umbrella is a branding and creative studio built on independent
   talent. We are building relationships with thousands of independent experts across
   the globe, to create bespoke teams for all our clients. It means we bring in the
